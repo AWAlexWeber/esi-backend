@@ -1,6 +1,11 @@
 # Importing libraries for use
 # Importing flask
 from flask import Flask
+from flask_cors import CORS
+
+# Dealing with cors
+# Possibly remove this later...
+
 # Importing requests
 # Importing JSON
 import json
@@ -23,7 +28,7 @@ from location.chain import *
 
 # Setting up the flask
 app = Flask("EvE ERB API")
-
+CORS(app)
 
 @app.route('/')
 def init_route():
