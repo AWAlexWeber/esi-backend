@@ -30,7 +30,7 @@ def get_location():
     # Getting the characters location
     # Checking how hardcore we are on updating
     json_input = request.data
-    json_data = json.loads(json_input)
+    json_data = json.loads(json_input.decode('utf-8'))
 
     # Authenticating our user
     auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
@@ -75,7 +75,7 @@ def get_location():
         result['update_time'] = ""
 
         if len(result['wormhole_data']) > 0:
-            result['wormhole_data'] = json.loads(result['wormhole_data'])
+            result['wormhole_data'] = json.loads(result['wormhole_data'].decode('utf-8'))
         else:
             result['wormhole_data'] = "{}"
 
@@ -108,7 +108,7 @@ def get_location():
         result['update_time'] = ""
 
         if len(result['wormhole_data']) > 0:
-            result['wormhole_data'] = json.loads(result['wormhole_data'])
+            result['wormhole_data'] = json.loads(result['wormhole_data'].decode('utf-8'))
         else:
             result['wormhole_data'] = "{}"
 
@@ -151,7 +151,7 @@ def update_character_location(character_id, character_auth_code):
     result_location = api_call_get("characters/" + str(character_id) + "/location/", {"character_id": character_id, "token": access_token})
 
     # Getting the solar system ID and the structure ID
-    result_location_content = json.loads(result_location.content)
+    result_location_content = json.loads(result_location.content.decode('utf-8'))
 
     solar_system_id = result_location_content['solar_system_id']
     try:
@@ -163,7 +163,7 @@ def update_character_location(character_id, character_auth_code):
     # Next, we will get the players ship
     result_ship = api_call_get("characters/" + str(character_id) + "/ship/", {"character_id": character_id, "token": access_token})
 
-    result_location_ship = json.loads(result_ship.content)
+    result_location_ship = json.loads(result_ship.content.decode('utf-8'))
     ship_custom_name = result_location_ship['ship_name']
     ship_id = result_location_ship['ship_type_id']
 

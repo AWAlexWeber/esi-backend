@@ -28,7 +28,7 @@ from auth.error import throw_json_error, throw_json_success
 def get_chain():
     print("Getting the users full chain")
     json_input = request.data
-    json_data = json.loads(json_input)
+    json_data = json.loads(json_input.decode('utf-8'))
 
     # Authenticating our user
     auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
