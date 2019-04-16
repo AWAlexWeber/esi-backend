@@ -6,6 +6,7 @@ from flask import Flask
 import json
 
 # Including other python files
+from auth.error import *
 from auth.error import throw_json_error
 
 # Including auth
@@ -85,4 +86,4 @@ def setting_wormhole_delete():
     return response
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
