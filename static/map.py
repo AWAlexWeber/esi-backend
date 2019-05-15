@@ -111,11 +111,13 @@ def get_wormhole_class(system_name):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select = "select solarsystemname,wormholeclassid from mapSolarSystems join mapLocationWormholeClasses on regionid=locationid WHERE solarsystemname = %s"
+    select = "select solarsystemname,wormholeclassid from mapsolarsystems join maplocationwormholeclasses on regionid=locationid WHERE solarsystemname = %s"
     cursor.execute(select, (system_name,))
     result_raw = cursor.fetchall()
 
-    return ('C' + str(result_raw[0][1]))
+    output = 'C' + str(result_raw[0][1])
+
+    return output
 
 def get_wormhole_statics(constellation_id):
     # Getting wormhole statics from a constellation
@@ -149,6 +151,7 @@ def get_wormhole_statics(constellation_id):
         select = "SELECT * FROM db_static.wormholestaticinfo WHERE typeID = %s"
         cursor.execute(select, (entry,))
         results_raw = cursor.fetchall()
+
         results = get_format_from_raw(results_raw, cursor)
         static_data.append(results)
 
@@ -218,6 +221,5 @@ def get_system_info(solar_system_id):
 
 
     ### Assembling both signature, note, and meta data
-
 
     return output

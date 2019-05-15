@@ -21,6 +21,7 @@ from flask import request
 from auth.auth import auth_character, get_access_token
 from auth.error import throw_json_error, throw_json_success
 from config.init_mysql import init_mysql
+from config.config import *
 
 # Getting the flask request object
 from flask import request
@@ -36,6 +37,12 @@ def add_sig():
     json_input = request.data
     json_data = json.loads(json_input.decode('utf-8'))
 
+    ### Authenticating the player
+    # Authenticating our user
+    auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
+    if auth == -1:
+        return throw_json_error(400, "Invalid authentication code")
+
     # Authenticating our user
     auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
     if auth == -1:
@@ -45,8 +52,34 @@ def add_sig():
     mydb = init_mysql("db_map")
     cursor = mydb.cursor()
 
-    insert = "INSERT INTO tb_sig (sig_id_num, sig_id_letter, sig_type, sig_name, sig_wormhole_data, sig_system) VALUES (%s, %s, %s, %s, %s, %s)"
-    data = [json_data['sig_id_num'], json_data['sig_id_letter'], json_data['sig_type'], json_data['sig_name'], "{}", json_data['sig_system']]
+    insert = "INSERT INTO tb_sig (sig_id_num, sig_id_letter, sig_type, sig_name, sig_wormhole_data, sig_system, sig_age) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+    data = [json_data['sig_id_num'], json_data['sig_id_letter'], json_data['sig_type'], json_data['sig_name'], str(json_data['sig_wormhole_data']), json_data['sig_system'], json_data['sig_age']]
     cursor.execute(insert, data)
     mydb.commit()
 
+def get_sigs():
+    print("Getting all sigs :O")
+
+    # Getting the sig info
+    json_input = request.data
+    json_data = json.loads(json_input.decode('utf-8'))
+
+    ### Authenticating the player
+    # Authenticating our user
+    auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
+    if auth == -1:
+        return throw_json_error(400, "Invalid authentication code")
+
+    # Building data from the given info
+    mydb = init_mysql("db_map")
+    cursor = mydb.cursor()
+
+    select = "SELECT * FROM tb_sig WHERE sig_status = 0"
+    cursor.execute(select)
+
+    result_raw = cursor.fetchall()
+    result = get_format_from_raw_full(result_raw, cursor)
+
+    result = encode_datetime(result)
+
+    return throw_json_success("success", result)

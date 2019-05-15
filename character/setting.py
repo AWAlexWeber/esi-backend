@@ -49,7 +49,7 @@ def delete_wormhole_mask():
     result = get_format_from_raw(result_raw, cursor)
     print(result)
 
-    wormhole_mask = json.loads(result['wormhole_mask'].decode('utf-8'))
+    wormhole_mask = json.loads(result['wormhole_mask'])
     ### Getting the index we need to delete
     index_track = 0
     for entry in wormhole_mask:
@@ -70,7 +70,7 @@ def delete_wormhole_mask():
 
     result_raw = cursor.fetchall()
     result = get_format_from_raw(result_raw, cursor)
-    result['wormhole_mask'] = json.loads(result['wormhole_mask'].decode('utf-8'))
+    result['wormhole_mask'] = json.loads(result['wormhole_mask'])
 
     return throw_json_success(200, result)
 
@@ -94,7 +94,7 @@ def add_wormhole_mask():
     result_raw = cursor.fetchall()
     result = get_format_from_raw(result_raw, cursor)
     print(result)
-    wormhole_mask = json.loads(result['wormhole_mask'].decode('utf-8'))
+    wormhole_mask = json.loads(result['wormhole_mask'])
 
     ### Appending the system by system name
     system_name = json_data['system_name']
@@ -115,7 +115,7 @@ def add_wormhole_mask():
 
     result_raw = cursor.fetchall()
     result = get_format_from_raw(result_raw, cursor)
-    result['wormhole_mask'] = json.loads(result['wormhole_mask'].decode('utf-8'))
+    result['wormhole_mask'] = json.loads(result['wormhole_mask'])
 
     return throw_json_success(200, result)
 
@@ -145,12 +145,12 @@ def get_settings():
 
         result_raw = cursor.fetchall()
         result = get_format_from_raw(result_raw, cursor)
-        result['wormhole_mask'] = json.loads(result['wormhole_mask'].decode('utf-8'))
+        result['wormhole_mask'] = json.loads(result['wormhole_mask'])
         return throw_json_success(200, result)
 
     else:
         result = get_format_from_raw(result_raw, cursor)
-        result['wormhole_mask'] = json.loads(result['wormhole_mask'].decode('utf-8'))
+        result['wormhole_mask'] = json.loads(result['wormhole_mask'])
         return throw_json_success(200, result)
 
 

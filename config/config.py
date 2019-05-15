@@ -1,6 +1,7 @@
 import random
 import string
 import requests
+import datetime
 
 ### Global variables
 base_api = "https://esi.evetech.net/dev/"
@@ -42,4 +43,26 @@ def api_call_get(endpoint, data):
 
     print("Sending request to " + str(path) + " with data of " + str(data))
     response = requests.get(path, data="")
+
     return response
+
+### Converting all instances of datetime into a string for output purposes
+### Requires an array as input
+def encode_datetime(result):
+
+    # Performing format fix
+    new_result_output = []
+    for value in result:
+
+        ### Building the new output value
+        new_value = value
+
+        for element in value:
+            data = value[element]
+            if isinstance(data, datetime.datetime):
+
+                new_value[element] = date_to_string(value[element])
+
+        new_result_output.append(new_value)
+
+    return new_result_output

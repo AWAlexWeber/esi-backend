@@ -29,8 +29,8 @@ default_refresh_time = 60
 def get_location():
     # Getting the characters location
     # Checking how hardcore we are on updating
-    json_input = request.data
-    json_data = json.loads(json_input.decode('utf-8'))
+    json_input = request.data.decode('utf-8')
+    json_data = json.loads(json_input)
 
     # Authenticating our user
     auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
@@ -71,11 +71,10 @@ def get_location():
         result = get_format_from_raw_full(result_raw, cursor)[0]
 
         # Removing update time
-        print(result)
         result['update_time'] = ""
 
         if len(result['wormhole_data']) > 0:
-            result['wormhole_data'] = json.loads(result['wormhole_data'].decode('utf-8'))
+            result['wormhole_data'] = json.loads(result['wormhole_data'])
         else:
             result['wormhole_data'] = "{}"
 
@@ -103,12 +102,13 @@ def get_location():
         cursor.execute(location_get, (json_data['character_id'],))
         result_raw = cursor.fetchall()
         result = get_format_from_raw_full(result_raw, cursor)[0]
+        print(result)
 
         # Removing update time
         result['update_time'] = ""
 
         if len(result['wormhole_data']) > 0:
-            result['wormhole_data'] = json.loads(result['wormhole_data'].decode('utf-8'))
+            result['wormhole_data'] = json.loads(result['wormhole_data'])
         else:
             result['wormhole_data'] = "{}"
 
@@ -117,8 +117,6 @@ def get_location():
         ### Getting the actual information we need data
         system_info = get_system_info(result['character_system_id'])
         result['data'] = system_info
-
-        print(result)
 
         return throw_json_success("success", result)
 
@@ -153,7 +151,11 @@ def update_character_location(character_id, character_auth_code):
     # Getting the solar system ID and the structure ID
     result_location_content = json.loads(result_location.content.decode('utf-8'))
 
-    solar_system_id = result_location_content['solar_system_id']
+    try:
+        solar_system_id = result_location_content['solar_system_id']
+    except KeyError as err:
+        solar_system_id = 30000142
+
     try:
         structure_id = result_location_content['structure_id']
 
@@ -222,7 +224,7 @@ def get_wormhole_data_from_id(system_id, system_name):
     # First, lets get our wormhole statics
     constellation_id = get_constellation_from_system_id(system_id)['constellationID']
     wormhole_class = get_wormhole_class(system_name)
-    wormhole_statics = get_wormhole_statics(constellation_id)
+    wormhole_statics = (constellation_id)
 
     output = {
         "statics": wormhole_statics,
