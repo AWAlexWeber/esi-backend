@@ -8,8 +8,6 @@ def throw_json_error(code, description):
         "reason": description
     }
 
-    print("Throwing error of " + description)
-
     return error
 
 

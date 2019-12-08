@@ -81,6 +81,7 @@ def add_wormhole_mask():
     ### Authenticating user
     json_input = request.data
     json_data = json.loads(json_input.decode('utf-8'))
+    print(json_data)
 
     # Authenticating our user
     auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
@@ -98,10 +99,11 @@ def add_wormhole_mask():
 
     ### Appending the system by system name
     system_name = json_data['system_name']
+    system_nickname = json_data['system_nickname']
     system_id = get_solar_system_id_from_name(system_name)
 
     ### Using this, we are rebuilding it
-    new_tag = {"systemName": system_name, "systemID": system_id}
+    new_tag = {"systemName": system_name, "systemID": system_id, "systemNickname": system_nickname}
     wormhole_mask.append(new_tag)
     wormhole_mask = json.dumps(wormhole_mask)
     print(wormhole_mask)

@@ -3,6 +3,8 @@
 import mysql.connector
 
 def init_mysql(database):
+    database = database.lower()
+
     my_db = mysql.connector.connect(
         host="localhost",
         user="root",
@@ -10,4 +12,4 @@ def init_mysql(database):
         database=database
     )
 
-    return my_db;
+    return my_db

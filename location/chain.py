@@ -61,7 +61,7 @@ def get_sigs_internal():
 
 ### Function for getting the entire 'chain' from a single solar system starting point...
 def get_chain():
-    print("Getting the users full chain")
+    #print("Getting the users full chain")
     json_input = request.data
     json_data = json.loads(json_input.decode('utf-8'))
 
@@ -79,15 +79,22 @@ def get_chain():
     ### Loading the first to-visit
     visit_list = []
     visit_list.append(system_id)
+    parent_data = {}
+
+    visisted_list = []
 
     ### Loading from system name
     output = {}
 
     ### Iterate on all connections, deep search
     while len(visit_list) > 0:
-        system_to_visit = visit_list.pop(0)
 
-        print("Iterating on " + str(system_to_visit))
+        system_to_visit = visit_list.pop(0)
+        if system_to_visit in visisted_list:
+            continue
+
+        #print("Iterating on " + str(system_to_visit))
+        child_data = []
 
         ### Appending the data from the solar system id
         location_data = get_system_info(system_to_visit)
@@ -101,7 +108,12 @@ def get_chain():
             for sig in sig_system_data:
                 sig_data_iterate = sig_system_data[sig]
                 if "sig_wormhole_data" in sig_data_iterate:
-                    sig_wormhole_destination = json.loads(sig_data_iterate['sig_wormhole_data'])['wormhole_destination']
+
+                    sig_wormhole_data = json.loads(sig_data_iterate['sig_wormhole_data'])
+                    if "wormhole_destination" not in sig_wormhole_data:
+                        continue
+
+                    sig_wormhole_destination = sig_wormhole_data['wormhole_destination']
 
                     ### If this is a real thing, lets continue
                     if len(sig_wormhole_destination) <= 0:
@@ -119,7 +131,10 @@ def get_chain():
                     solar_system_id = solar_system_id['solarSystemID']
 
                     visit_list.append(solar_system_id)
+                    child_data.append(sig_wormhole_destination)
 
+        location_data['children_by_system'] = child_data
         output[location_data['solarSystemName']] = location_data
+        visisted_list.append(system_to_visit)
 
     return throw_json_success(200, output)

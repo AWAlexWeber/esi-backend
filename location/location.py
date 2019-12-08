@@ -166,6 +166,7 @@ def update_character_location(character_id, character_auth_code):
     result_ship = api_call_get("characters/" + str(character_id) + "/ship/", {"character_id": character_id, "token": access_token})
 
     result_location_ship = json.loads(result_ship.content.decode('utf-8'))
+    print(result_location_ship)
     ship_custom_name = result_location_ship['ship_name']
     ship_id = result_location_ship['ship_type_id']
 

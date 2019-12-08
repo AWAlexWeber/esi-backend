@@ -119,22 +119,30 @@ def get_wormhole_class(system_name):
 
     return output
 
-def get_wormhole_statics(constellation_id):
+def get_wormhole_statics(constellation_id, solarSystemName):
     # Getting wormhole statics from a constellation
 
     # Getting our constellation ID from system ID
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_query = "SELECT staticmap.*, invtypes.typeName, invtypes.typeID FROM db_static.staticmap INNER JOIN invtypes WHERE constellationID = %s AND staticmap.typeID = invtypes.typeID"
-    cursor.execute(select_query, (constellation_id,))
-    result_raw = cursor.fetchall()
+    # Checking if it is a fucking shattered
+    if "J0" in solarSystemName:
+        ### Okay we are getting the shattered statics...
+        print("Getting the shattered statics...")
 
-    # Checking for null
-    if len(result_raw) <= 0:
-        return result_raw
+    else:
 
-    result = get_format_from_raw_full(result_raw, cursor)
+        select_query = "SELECT staticmap.*, invtypes.typeName, invtypes.typeID FROM db_static.staticmap INNER JOIN invtypes WHERE constellationID = %s AND staticmap.typeID = invtypes.typeID"
+        cursor.execute(select_query, (constellation_id,))
+        result_raw = cursor.fetchall()
+
+        # Checking for null
+        if len(result_raw) <= 0:
+            return result_raw
+
+        result = get_format_from_raw_full(result_raw, cursor)
+
     static_list = []
 
     for entry in result:
@@ -190,6 +198,19 @@ def get_security_string_from_system_id(system_id):
     else:
         return "NS"
 
+def get_wormhole_effect_from_system_id(solar_system_id):
+    mydb = init_mysql("db_static")
+    cursor = mydb.cursor()
+
+    select_solar_system_name = "SELECT wormholeEffect FROM wormholeeffect WHERE solarSystemID = %s"
+    cursor.execute(select_solar_system_name, (solar_system_id,))
+    result_raw = cursor.fetchall()
+
+    if len(result_raw) <= 0:
+        return "None"
+    else:
+        return result_raw[0][0]
+
 
 
 # This function gets us the information dealing with a solar system, by that solar system's ID
@@ -197,7 +218,7 @@ def get_security_string_from_system_id(system_id):
 # This will only pull from static data, so NO ESI integration here!
 def get_system_info(solar_system_id):
 
-    print("Loading system information from " + str(solar_system_id))
+    #print("Loading system information from " + str(solar_system_id))
 
     # Given that we have recieved a solar system id, lets convert that into something more useful
     output = {}
@@ -209,13 +230,14 @@ def get_system_info(solar_system_id):
     output['regionID'] = get_region_id_from_solar_system_id(solar_system_id)['regionID']
     output['regionName'] = get_region_name_from_region_id(output['regionID'])['regionName']
     output['securityClass'] = get_security_string_from_system_id(solar_system_id)
+    output['wormholeEffect'] = get_wormhole_effect_from_system_id(solar_system_id);
 
     ### Getting notes for this location, IF there is indeed notes for it...
 
     ### Assembling wormhole data
-    if output['solarSystemName'][0:1] == "J":
+    if output['solarSystemName'][0:1] == "J" and len(output['solarSystemName']) == 7 and output['securityClass'] == "JS":
         wormhole_output = {}
-        wormhole_output['static'] = get_wormhole_statics(output['constellationID'])
+        wormhole_output['static'] = get_wormhole_statics(output['constellationID'], output['solarSystemName'])
         wormhole_output['class'] = get_wormhole_class(output['solarSystemName'])
         output['wormhole'] = wormhole_output
 
