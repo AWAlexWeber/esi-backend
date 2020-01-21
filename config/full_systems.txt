@@ -1,0 +1,2969 @@
+J100744 (c1) ns static CataclysmicVariable
+J105443 (c1) ns static 
+J114700 (c1) ns static 
+J134914 (c1) ns static 
+J160837 (c1) ns static 
+J225046 (c1) ns static 
+A-C00312
+J102655 (c1) ns static 
+J105711 (c1) ns static CataclysmicVariable
+J111301 (c1) ns static CataclysmicVariable
+J113434 (c1) ns static 
+J121358 (c1) ns static 
+J134312 (c1) ns static Magnetar
+J135038 (c1) ns static 
+J154535 (c1) ns static BlackHole
+J155429 (c1) ns static 
+J164218 (c1) ns static 
+J205818 (c1) ns static 
+J222914 (c1) ns static Pulsar
+A-C00313
+J101729 (c1) ns static 
+J112628 (c1) ns static Wolf-Rayet Star
+J143204 (c1) ns static 
+J153001 (c1) ns static 
+J155023 (c1) ns static 
+J162604 (c1) ns static 
+J164807 (c1) ns static 
+J204640 (c1) ns static BlackHole
+J221203 (c1) ns static BlackHole
+J233317 (c1) ns static Wolf-Rayet Star
+A-C00314
+J101453 (c1) ls static 
+J105521 (c1) ls static RedGiant
+J125428 (c1) ls static 
+J125713 (c1) ls static 
+J131854 (c1) ls static BlackHole
+J135411 (c1) ls static Magnetar
+J144530 (c1) ls static 
+J144855 (c1) ls static 
+J144913 (c1) ls static 
+J160534 (c1) ls static 
+A-C00315
+J103404 (c1) ls static Wolf-Rayet Star
+J112124 (c1) ls static 
+J130842 (c1) ls static 
+J145337 (c1) ls static 
+J145406 (c1) ls static 
+J150131 (c1) ls static 
+J163203 (c1) ls static CataclysmicVariable
+J171818 (c1) ls static Magnetar
+J224324 (c1) ls static 
+A-C00316
+J124926 (c1) ls static CataclysmicVariable
+J125843 (c1) ls static 
+J130714 (c1) ls static BlackHole
+J142701 (c1) ls static 
+J144938 (c1) ls static 
+J154226 (c1) ls static 
+J155459 (c1) ls static 
+J232605 (c1) ls static 
+J233828 (c1) ls static 
+A-C00317
+J100250 (c1) ls static 
+J101757 (c1) ls static BlackHole
+J104140 (c1) ls static 
+J105039 (c1) ls static Pulsar
+J113721 (c1) ls static 
+J115549 (c1) ls static 
+J140741 (c1) ls static BlackHole
+J225555 (c1) ls static Magnetar
+J233550 (c1) ls static 
+A-C00318
+J101336 (c1) ls static CataclysmicVariable
+J105936 (c1) ls static RedGiant
+J110750 (c1) ls static 
+J113653 (c1) ls static 
+J114033 (c1) ls static Wolf-Rayet Star
+J121131 (c1) ls static Wolf-Rayet Star
+J123454 (c1) ls static Wolf-Rayet Star
+J140121 (c1) ls static Magnetar
+J144303 (c1) ls static 
+J154029 (c1) ls static 
+J160039 (c1) ls static 
+J161257 (c1) ls static RedGiant
+A-C00319
+J100040 (c1) ls static BlackHole
+J110431 (c1) ls static CataclysmicVariable
+J133030 (c1) ls static CataclysmicVariable
+J134446 (c1) ls static 
+J143202 (c1) ls static 
+J151106 (c1) ls static Magnetar
+J170645 (c1) ls static 
+J210436 (c1) ls static 
+J223733 (c1) ls static 
+A-C00320
+J101408 (c1) ls static 
+J103151 (c1) ls static Pulsar
+J111707 (c1) ls static 
+J123708 (c1) ls static 
+J123831 (c1) ls static 
+J130602 (c1) ls static 
+J134143 (c1) ls static 
+J135245 (c1) ls static 
+J135250 (c1) ls static 
+J164927 (c1) ls static 
+J214534 (c1) ls static 
+J222206 (c1) ls static 
+A-C00321
+J102206 (c1) ls static 
+J104138 (c1) ls static Magnetar
+J114540 (c1) ls static 
+J121516 (c1) ls static 
+J125903 (c1) ls static 
+J134939 (c1) ls static 
+J141019 (c1) ls static 
+J152537 (c1) ls static BlackHole
+J155013 (c1) ls static 
+J162641 (c1) ls static RedGiant
+J215117 (c1) ls static 
+J224442 (c1) ls static BlackHole
+A-C00322
+J114905 (c1) ls static 
+J115545 (c1) ls static 
+J120522 (c1) ls static 
+J125011 (c1) ls static 
+J134132 (c1) ls static 
+J134637 (c1) ls static 
+J141239 (c1) ls static 
+J141812 (c1) ls static 
+J144450 (c1) ls static 
+J164550 (c1) ls static Magnetar
+J172907 (c1) ls static Pulsar
+A-C00323
+J105942 (c1) ls static CataclysmicVariable
+J110213 (c1) ls static 
+J110651 (c1) ls static 
+J115048 (c1) ls static 
+J123047 (c1) ls static 
+J123111 (c1) ls static 
+J140602 (c1) ls static 
+J163804 (c1) ls static Wolf-Rayet Star
+J171653 (c1) ls static 
+J174405 (c1) ls static Wolf-Rayet Star
+J215900 (c1) ls static CataclysmicVariable
+J231541 (c1) ls static 
+A-C00325
+J002216 (c1) ls/ns static Shattered
+J002757 (c1) hs/ns static Shattered
+J004317 (c1) hs/ls static Shattered
+J004791 (c1) hs/ls static Shattered
+J005834 (c1) hs/ns static CataclysmicVariable, Shattered
+J005926 (c1) hs/ls static Pulsar, Shattered
+J010569 (c1) hs/ls static RedGiant, Shattered
+J012157 (c1) ls/ns static Shattered
+J012402 (c1) hs/ns static Magnetar, Shattered
+J015092 (c1) ls/ns static BlackHole, Shattered
+A-R00002  (c1) 
+A-C00001
+J105632 (c1) hs static 
+J112913 (c1) hs static 
+J120734 (c1) hs static 
+J122659 (c1) hs static 
+J125209 (c1) hs static Magnetar
+J130931 (c1) hs static 
+J140831 (c1) hs static 
+J160710 (c1) hs static 
+J160835 (c1) hs static 
+J161115 (c1) hs static 
+J161811 (c1) hs static 
+A-C00002
+J110101 (c1) hs static 
+J110108 (c1) hs static 
+J110906 (c1) hs static 
+J113506 (c1) hs static 
+J113820 (c1) hs static 
+J115815 (c1) hs static 
+J121418 (c1) hs static 
+J133653 (c1) hs static 
+J144704 (c1) hs static 
+J171700 (c1) hs static 
+J172240 (c1) hs static 
+J213555 (c1) hs static BlackHole
+A-C00003
+J101020 (c1) hs static 
+J104628 (c1) hs static 
+J110545 (c1) hs static 
+J114546 (c1) hs static 
+J131232 (c1) hs static 
+J150407 (c1) hs static RedGiant
+J153530 (c1) hs static 
+J153536 (c1) hs static 
+J204503 (c1) hs static Magnetar
+J215417 (c1) hs static 
+J235419 (c1) hs static 
+A-C00004
+J102630 (c1) hs static 
+J133335 (c1) hs static 
+J133613 (c1) hs static 
+J134330 (c1) hs static 
+J144632 (c1) hs static 
+J150745 (c1) hs static 
+J150827 (c1) hs static 
+J152006 (c1) hs static 
+J160345 (c1) hs static 
+J165056 (c1) hs static 
+J165901 (c1) hs static 
+J213342 (c1) hs static 
+A-C00005
+J110051 (c1) hs static 
+J112250 (c1) hs static 
+J114420 (c1) hs static 
+J115738 (c1) hs static Pulsar
+J125925 (c1) hs static 
+J142617 (c1) hs static 
+J150818 (c1) hs static Pulsar
+J155935 (c1) hs static 
+J232715 (c1) hs static 
+A-C00006
+J101817 (c1) hs static 
+J102849 (c1) hs static 
+J104439 (c1) hs static Wolf-Rayet Star
+J120335 (c1) hs static 
+J122717 (c1) hs static 
+J131551 (c1) hs static BlackHole
+J132216 (c1) hs static 
+J132758 (c1) hs static CataclysmicVariable
+J134145 (c1) hs static Pulsar
+J152928 (c1) hs static 
+A-C00007
+J100211 (c1) hs static 
+J104103 (c1) hs static 
+J114107 (c1) hs static 
+J114313 (c1) hs static 
+J115200 (c1) hs static 
+J152014 (c1) hs static 
+J155029 (c1) hs static BlackHole
+J171019 (c1) hs static CataclysmicVariable
+J223703 (c1) hs static 
+J233359 (c1) hs static 
+A-C00008
+J113050 (c1) hs static 
+J114719 (c1) hs static 
+J120621 (c1) hs static 
+J121158 (c1) hs static BlackHole
+J130322 (c1) hs static 
+J130542 (c1) hs static 
+J141514 (c1) hs static 
+J161524 (c1) hs static Pulsar
+J162118 (c1) hs static CataclysmicVariable
+J162858 (c1) hs static 
+J220654 (c1) hs static 
+J231004 (c1) hs static CataclysmicVariable
+A-C00009
+J100422 (c1) hs static RedGiant
+J104335 (c1) hs static Wolf-Rayet Star
+J105700 (c1) hs static 
+J105837 (c1) hs static 
+J141150 (c1) hs static 
+J143133 (c1) hs static 
+J143628 (c1) hs static 
+J150629 (c1) hs static 
+J151601 (c1) hs static 
+J161509 (c1) hs static 
+J163743 (c1) hs static 
+J215431 (c1) hs static 
+A-C00010
+J110605 (c1) hs static 
+J112129 (c1) hs static 
+J122843 (c1) hs static Pulsar
+J123748 (c1) hs static 
+J124051 (c1) hs static 
+J130045 (c1) hs static 
+J140019 (c1) hs static BlackHole
+J141017 (c1) hs static 
+J143649 (c1) hs static 
+J151141 (c1) hs static 
+J213653 (c1) hs static 
+J223855 (c1) hs static RedGiant
+A-C00011
+J102414 (c1) hs static 
+J122114 (c1) hs static 
+J122712 (c1) hs static 
+J143002 (c1) hs static BlackHole
+J151518 (c1) hs static 
+J160307 (c1) hs static RedGiant
+J163533 (c1) hs static Pulsar
+J170949 (c1) hs static 
+J205004 (c1) hs static 
+J213932 (c1) hs static 
+A-C00012
+J102837 (c1) hs static CataclysmicVariable
+J103320 (c1) hs static 
+J124215 (c1) hs static Magnetar
+J130155 (c1) hs static 
+J141038 (c1) hs static Wolf-Rayet Star
+J142649 (c1) hs static 
+J170544 (c1) hs static 
+J172003 (c1) hs static 
+J215754 (c1) hs static RedGiant
+J235001 (c1) hs static 
+A-C00013
+J102734 (c1) hs static 
+J105232 (c1) hs static 
+J110126 (c1) hs static 
+J120338 (c1) hs static Wolf-Rayet Star
+J133128 (c1) hs static 
+J142941 (c1) hs static Magnetar
+J144228 (c1) hs static RedGiant
+J150539 (c1) hs static BlackHole
+J155504 (c1) hs static 
+J163156 (c1) hs static 
+J223650 (c1) hs static 
+A-C00014
+J102918 (c1) hs static 
+J114914 (c1) hs static CataclysmicVariable
+J115216 (c1) hs static 
+J120256 (c1) hs static 
+J140135 (c1) hs static Pulsar
+J143421 (c1) hs static 
+J153311 (c1) hs static 
+J164756 (c1) hs static 
+J165216 (c1) hs static RedGiant
+J212504 (c1) hs static Wolf-Rayet Star
+J223026 (c1) hs static 
+A-R00003  (c1) 
+A-C00015
+J102005 (c1) hs static 
+J102749 (c1) hs static 
+J103341 (c1) hs static 
+J105642 (c1) hs static 
+J124451 (c1) hs static 
+J133052 (c1) hs static 
+J134540 (c1) hs static 
+J142114 (c1) hs static 
+J142119 (c1) hs static 
+J142136 (c1) hs static 
+J154354 (c1) hs static Magnetar
+J165741 (c1) hs static CataclysmicVariable
+A-C00016
+J101845 (c1) hs static 
+J103547 (c1) hs static 
+J120431 (c1) hs static 
+J134610 (c1) hs static Wolf-Rayet Star
+J152353 (c1) hs static 
+J160334 (c1) hs static BlackHole
+J161107 (c1) hs static 
+J171805 (c1) hs static RedGiant
+J173842 (c1) hs static 
+A-C00017
+J105013 (c1) hs static CataclysmicVariable
+J113632 (c1) hs static Magnetar
+J121935 (c1) hs static 
+J123828 (c1) hs static 
+J155203 (c1) hs static Wolf-Rayet Star
+J161846 (c1) hs static 
+J164759 (c1) hs static 
+J170106 (c1) hs static 
+J172147 (c1) hs static 
+A-C00018
+J112744 (c1) hs static 
+J113918 (c1) hs static 
+J115823 (c1) hs static 
+J121941 (c1) hs static 
+J125650 (c1) hs static 
+J133245 (c1) hs static RedGiant
+J134833 (c1) hs static 
+J143517 (c1) hs static BlackHole
+J161344 (c1) hs static BlackHole
+J212338 (c1) hs static 
+J212957 (c1) hs static 
+A-C00019
+J111811 (c1) hs static 
+J112406 (c1) hs static CataclysmicVariable
+J151332 (c1) hs static 
+J152257 (c1) hs static 
+J155833 (c1) hs static Magnetar
+J161644 (c1) hs static 
+J171312 (c1) hs static 
+J212904 (c1) hs static 
+J231306 (c1) hs static Wolf-Rayet Star
+A-C00020
+J104201 (c1) hs static 
+J112934 (c1) hs static 
+J115808 (c1) hs static 
+J121915 (c1) hs static 
+J122224 (c1) hs static 
+J131702 (c1) hs static Pulsar
+J133259 (c1) hs static 
+J141807 (c1) hs static 
+J142327 (c1) hs static 
+J144822 (c1) hs static 
+J150216 (c1) hs static 
+J150325 (c1) hs static 
+B-R00004  (c2) 
+B-C00021
+J101524 (c2) c3/hs static 
+J104253 (c2) c3/hs static 
+J113057 (c2) c3/hs static 
+J124508 (c2) c3/hs static 
+J125227 (c2) c3/hs static Pulsar
+J141156 (c2) c3/hs static 
+J144153 (c2) c3/hs static 
+J164417 (c2) c3/hs static 
+J222822 (c2) c3/hs static 
+B-C00022
+J103406 (c2) c3/hs static Pulsar
+J105951 (c2) c3/hs static 
+J111740 (c2) c3/hs static 
+J114835 (c2) c3/hs static 
+J120726 (c2) c3/hs static 
+J125956 (c2) c3/hs static 
+J133210 (c2) c3/hs static 
+J141857 (c2) c3/hs static 
+J144218 (c2) c3/hs static 
+J144605 (c2) c3/hs static 
+J155737 (c2) c3/hs static Pulsar
+B-C00023
+J111557 (c2) c3/hs static 
+J114346 (c2) c3/hs static 
+J124219 (c2) c3/hs static 
+J134006 (c2) c3/hs static 
+J145805 (c2) c3/hs static 
+J151548 (c2) c3/hs static Magnetar
+J153532 (c2) c3/hs static Pulsar
+J155620 (c2) c3/hs static Wolf-Rayet Star
+J160941 (c2) c3/hs static 
+J211036 (c2) c3/hs static 
+J211936 (c2) c3/hs static 
+B-C00024
+J103339 (c2) c3/hs static 
+J104008 (c2) c3/hs static 
+J111011 (c2) c3/hs static 
+J121925 (c2) c3/hs static CataclysmicVariable
+J122821 (c2) c3/hs static 
+J132009 (c2) c3/hs static 
+J145715 (c2) c3/hs static 
+J151047 (c2) c3/hs static Pulsar
+J160412 (c2) c3/hs static Pulsar
+J210548 (c2) c3/hs static 
+J235321 (c2) c3/hs static CataclysmicVariable
+J235408 (c2) c3/hs static 
+B-C00025
+J111508 (c2) c3/hs static 
+J113230 (c2) c3/hs static 
+J130256 (c2) c3/hs static Magnetar
+J132557 (c2) c3/hs static 
+J134800 (c2) c3/hs static 
+J143639 (c2) c3/hs static 
+J153627 (c2) c3/hs static Magnetar
+J154212 (c2) c3/hs static 
+J232801 (c2) c3/hs static 
+J233534 (c2) c3/hs static Magnetar
+B-C00026
+J103217 (c2) c3/hs static Magnetar
+J112137 (c2) c3/hs static 
+J142306 (c2) c3/hs static 
+J142547 (c2) c3/hs static 
+J143505 (c2) c3/hs static 
+J145931 (c2) c3/hs static 
+J151231 (c2) c3/hs static 
+J160715 (c2) c3/hs static BlackHole
+J160753 (c2) c3/hs static 
+J210422 (c2) c3/hs static 
+B-C00027
+J103839 (c2) c3/hs static Wolf-Rayet Star
+J103948 (c2) c3/hs static 
+J110408 (c2) c3/hs static 
+J112146 (c2) c3/hs static RedGiant
+J120308 (c2) c3/hs static 
+J142533 (c2) c3/hs static Pulsar
+J152433 (c2) c3/hs static RedGiant
+J152801 (c2) c3/hs static Pulsar
+J205546 (c2) c3/hs static 
+B-C00028
+J103408 (c2) c3/hs static RedGiant
+J110043 (c2) c3/hs static 
+J112820 (c2) c3/hs static 
+J121454 (c2) c3/hs static 
+J132418 (c2) c3/hs static 
+J162720 (c2) c3/hs static RedGiant
+J164235 (c2) c3/hs static Pulsar
+J230959 (c2) c3/hs static 
+J231837 (c2) c3/hs static 
+B-C00029
+J110656 (c2) c3/hs static 
+J112801 (c2) c3/hs static 
+J120310 (c2) c3/hs static BlackHole
+J131204 (c2) c3/hs static 
+J134654 (c2) c3/hs static 
+J134951 (c2) c3/hs static 
+J143429 (c2) c3/hs static 
+J144838 (c2) c3/hs static 
+J155307 (c2) c3/hs static 
+J164938 (c2) c3/hs static 
+J213737 (c2) c3/hs static BlackHole
+J235117 (c2) c3/hs static 
+B-C00030
+J101307 (c2) c3/hs static 
+J124023 (c2) c3/hs static 
+J140012 (c2) c3/hs static 
+J150921 (c2) c3/hs static 
+J155616 (c2) c3/hs static BlackHole
+J162700 (c2) c3/hs static 
+J171424 (c2) c3/hs static 
+J171518 (c2) c3/hs static 
+J172354 (c2) c3/hs static 
+J234557 (c2) c3/hs static 
+J235447 (c2) c3/hs static 
+B-C00326
+J001057 (c2) c2/hs/ns static Pulsar, Shattered
+J001890 (c2) c1/hs/ls static Shattered
+J002964 (c2) c5/ls/ns static Shattered
+J004686 (c2) c3/ls/ns static Shattered
+J005482 (c2) c1/hs/ls static BlackHole, Shattered
+J005900 (c2) c4/ls/ns static CataclysmicVariable, Shattered
+J010000 (c2) c1/c2/hs static Shattered
+J011321 (c2) c4/hs/ns static RedGiant, Shattered
+J012635 (c2) hs/ls static Shattered
+J012735 (c2) c3/hs/ns static Shattered
+J013070 (c2) c6/ls/ns static Magnetar, Shattered
+J013123 (c2) c2/hs/ls static Shattered
+B-R00005  (c2) 
+B-C00031
+J100640 (c2) c4/hs static 
+J103422 (c2) c4/hs static Wolf-Rayet Star
+J103716 (c2) c4/hs static 
+J130222 (c2) c4/hs static 
+J141332 (c2) c4/hs static Wolf-Rayet Star
+J144546 (c2) c4/hs static Pulsar
+J145759 (c2) c4/hs static 
+J151250 (c2) c4/hs static 
+J211915 (c2) c4/hs static CataclysmicVariable
+B-C00032
+J100447 (c2) c4/hs static BlackHole
+J105321 (c2) c4/hs static 
+J105803 (c2) c4/hs static 
+J110823 (c2) c4/hs static RedGiant
+J115651 (c2) c4/hs static 
+J122832 (c2) c4/hs static RedGiant
+J130209 (c2) c4/hs static 
+J134323 (c2) c4/hs static Wolf-Rayet Star
+J143359 (c2) c4/hs static 
+J160014 (c2) c4/hs static RedGiant
+J165357 (c2) c4/hs static 
+B-C00033
+J100246 (c2) c4/hs static 
+J113108 (c2) c4/hs static 
+J114405 (c2) c4/hs static 
+J123450 (c2) c4/hs static Wolf-Rayet Star
+J131107 (c2) c4/hs static BlackHole
+J131221 (c2) c4/hs static 
+J135809 (c2) c4/hs static RedGiant
+J145155 (c2) c4/hs static 
+J172551 (c2) c4/hs static 
+J172556 (c2) c4/hs static 
+J215537 (c2) c4/hs static 
+B-C00034
+J104115 (c2) c4/hs static 
+J104210 (c2) c4/hs static Pulsar
+J114055 (c2) c4/hs static 
+J114758 (c2) c4/hs static Pulsar
+J120619 (c2) c4/hs static 
+J170038 (c2) c4/hs static BlackHole
+J212319 (c2) c4/hs static Pulsar
+J213058 (c2) c4/hs static 
+J231517 (c2) c4/hs static CataclysmicVariable
+B-C00035
+J104328 (c2) c4/hs static 
+J105203 (c2) c4/hs static 
+J110316 (c2) c4/hs static 
+J120928 (c2) c4/hs static RedGiant
+J122331 (c2) c4/hs static 
+J130854 (c2) c4/hs static 
+J132918 (c2) c4/hs static 
+J162430 (c2) c4/hs static 
+J164130 (c2) c4/hs static 
+B-C00036
+J102347 (c2) c4/hs static 
+J125721 (c2) c4/hs static 
+J132052 (c2) c4/hs static Magnetar
+J133419 (c2) c4/hs static CataclysmicVariable
+J134618 (c2) c4/hs static BlackHole
+J135703 (c2) c4/hs static Pulsar
+J140112 (c2) c4/hs static 
+J150137 (c2) c4/hs static 
+J154515 (c2) c4/hs static 
+J154858 (c2) c4/hs static 
+J234942 (c2) c4/hs static RedGiant
+B-C00037
+J114046 (c2) c4/hs static RedGiant
+J114306 (c2) c4/hs static 
+J122246 (c2) c4/hs static 
+J132559 (c2) c4/hs static 
+J135910 (c2) c4/hs static CataclysmicVariable
+J140308 (c2) c4/hs static 
+J140642 (c2) c4/hs static 
+J150859 (c2) c4/hs static 
+J151615 (c2) c4/hs static CataclysmicVariable
+J154606 (c2) c4/hs static 
+J230207 (c2) c4/hs static 
+B-C00038
+J101149 (c2) c4/hs static 
+J112614 (c2) c4/hs static 
+J122124 (c2) c4/hs static 
+J132024 (c2) c4/hs static 
+J142239 (c2) c4/hs static 
+J144426 (c2) c4/hs static 
+J150341 (c2) c4/hs static Wolf-Rayet Star
+J154538 (c2) c4/hs static 
+J160311 (c2) c4/hs static 
+B-C00039
+J100033 (c2) c4/hs static 
+J104820 (c2) c4/hs static 
+J105000 (c2) c4/hs static Magnetar
+J120442 (c2) c4/hs static 
+J131240 (c2) c4/hs static 
+J144956 (c2) c4/hs static 
+J145316 (c2) c4/hs static Magnetar
+J163138 (c2) c4/hs static Pulsar
+J164507 (c2) c4/hs static CataclysmicVariable
+J170552 (c2) c4/hs static 
+J215736 (c2) c4/hs static RedGiant
+B-C00040
+J114712 (c2) c4/hs static 
+J121412 (c2) c4/hs static Wolf-Rayet Star
+J133015 (c2) c4/hs static 
+J133557 (c2) c4/hs static Wolf-Rayet Star
+J134534 (c2) c4/hs static Pulsar
+J145211 (c2) c4/hs static BlackHole
+J150700 (c2) c4/hs static 
+J153229 (c2) c4/hs static 
+J164931 (c2) c4/hs static 
+J174449 (c2) c4/hs static 
+J211908 (c2) c4/hs static 
+B-R00006  (c2) 
+B-C00041
+J105352 (c2) c2/ls static 
+J110413 (c2) c2/ls static 
+J125927 (c2) c2/ls static RedGiant
+J130650 (c2) c2/ls static CataclysmicVariable
+J142826 (c2) c2/ls static Wolf-Rayet Star
+J150807 (c2) c2/ls static 
+J152737 (c2) c2/ls static BlackHole
+J161246 (c2) c2/ls static 
+J163146 (c2) c2/ls static CataclysmicVariable
+J225316 (c2) c2/ls static CataclysmicVariable
+B-C00042
+J104850 (c2) c2/ls static 
+J110538 (c2) c2/ls static RedGiant
+J123435 (c2) c2/ls static 
+J131124 (c2) c2/ls static 
+J134107 (c2) c2/ls static 
+J143336 (c2) c2/ls static 
+J150853 (c2) c2/ls static 
+J170558 (c2) c2/ls static BlackHole
+J214238 (c2) c2/ls static Magnetar
+B-C00043
+J114749 (c2) c2/ls static 
+J115334 (c2) c2/ls static CataclysmicVariable
+J115911 (c2) c2/ls static Wolf-Rayet Star
+J134730 (c2) c2/ls static BlackHole
+J135155 (c2) c2/ls static 
+J145225 (c2) c2/ls static BlackHole
+J152825 (c2) c2/ls static 
+J223853 (c2) c2/ls static 
+J231210 (c2) c2/ls static 
+J232044 (c2) c2/ls static CataclysmicVariable
+J234542 (c2) c2/ls static 
+B-C00044
+J103351 (c2) c2/ls static 
+J104517 (c2) c2/ls static 
+J105544 (c2) c2/ls static CataclysmicVariable
+J114528 (c2) c2/ls static RedGiant
+J132401 (c2) c2/ls static 
+J132617 (c2) c2/ls static 
+J142918 (c2) c2/ls static Wolf-Rayet Star
+J152322 (c2) c2/ls static CataclysmicVariable
+J163902 (c2) c2/ls static RedGiant
+J214843 (c2) c2/ls static Wolf-Rayet Star
+J233129 (c2) c2/ls static 
+B-C00045
+J115314 (c2) c2/ls static CataclysmicVariable
+J115734 (c2) c2/ls static CataclysmicVariable
+J120252 (c2) c2/ls static 
+J123907 (c2) c2/ls static 
+J144057 (c2) c2/ls static 
+J153247 (c2) c2/ls static Wolf-Rayet Star
+J154735 (c2) c2/ls static 
+J173322 (c2) c2/ls static 
+J204623 (c2) c2/ls static 
+J223320 (c2) c2/ls static 
+J223348 (c2) c2/ls static 
+J232305 (c2) c2/ls static Pulsar
+B-C00046
+J102222 (c2) c2/ls static CataclysmicVariable
+J103144 (c2) c2/ls static 
+J124530 (c2) c2/ls static 
+J132458 (c2) c2/ls static CataclysmicVariable
+J132712 (c2) c2/ls static 
+J134949 (c2) c2/ls static 
+J150836 (c2) c2/ls static Magnetar
+J160927 (c2) c2/ls static CataclysmicVariable
+J164816 (c2) c2/ls static 
+B-C00047
+J104718 (c2) c2/ls static Wolf-Rayet Star
+J111846 (c2) c2/ls static 
+J115530 (c2) c2/ls static 
+J120704 (c2) c2/ls static 
+J131808 (c2) c2/ls static 
+J133111 (c2) c2/ls static 
+J135629 (c2) c2/ls static 
+J150904 (c2) c2/ls static Pulsar
+J152950 (c2) c2/ls static CataclysmicVariable
+B-C00048
+J101346 (c2) c2/ls static 
+J132048 (c2) c2/ls static 
+J140816 (c2) c2/ls static 
+J141015 (c2) c2/ls static 
+J145619 (c2) c2/ls static 
+J163446 (c2) c2/ls static 
+J172350 (c2) c2/ls static 
+J231644 (c2) c2/ls static Wolf-Rayet Star
+J232147 (c2) c2/ls static 
+B-C00049
+J110910 (c2) c2/ls static 
+J113221 (c2) c2/ls static 
+J131753 (c2) c2/ls static 
+J134349 (c2) c2/ls static CataclysmicVariable
+J144727 (c2) c2/ls static 
+J152941 (c2) c2/ls static 
+J204221 (c2) c2/ls static 
+J212238 (c2) c2/ls static CataclysmicVariable
+J235852 (c2) c2/ls static BlackHole
+B-C00050
+J103512 (c2) c2/ls static 
+J121658 (c2) c2/ls static Wolf-Rayet Star
+J131706 (c2) c2/ls static CataclysmicVariable
+J135827 (c2) c2/ls static RedGiant
+J143320 (c2) c2/ls static Magnetar
+J150109 (c2) c2/ls static 
+J155551 (c2) c2/ls static 
+J162516 (c2) c2/ls static 
+J214854 (c2) c2/ls static 
+B-C00051
+J101415 (c2) c2/ls static RedGiant
+J102504 (c2) c2/ls static 
+J103854 (c2) c2/ls static 
+J122837 (c2) c2/ls static 
+J125727 (c2) c2/ls static BlackHole
+J142847 (c2) c2/ls static Magnetar
+J143706 (c2) c2/ls static 
+J155035 (c2) c2/ls static 
+J214725 (c2) c2/ls static 
+J235924 (c2) c2/ls static 
+B-C00052
+J100509 (c2) c2/ls static 
+J100808 (c2) c2/ls static 
+J104802 (c2) c2/ls static 
+J112956 (c2) c2/ls static BlackHole
+J113323 (c2) c2/ls static Wolf-Rayet Star
+J131034 (c2) c2/ls static Wolf-Rayet Star
+J135141 (c2) c2/ls static 
+J142055 (c2) c2/ls static 
+J142838 (c2) c2/ls static RedGiant
+J151503 (c2) c2/ls static RedGiant
+J160305 (c2) c2/ls static 
+J214901 (c2) c2/ls static Wolf-Rayet Star
+B-C00053
+J104606 (c2) c2/ls static Pulsar
+J110555 (c2) c2/ls static 
+J111141 (c2) c2/ls static 
+J112916 (c2) c2/ls static 
+J115347 (c2) c2/ls static 
+J143455 (c2) c2/ls static 
+J151902 (c2) c2/ls static 
+J164613 (c2) c2/ls static Magnetar
+J222830 (c2) c2/ls static Pulsar
+J224217 (c2) c2/ls static 
+J225805 (c2) c2/ls static 
+J235759 (c2) c2/ls static CataclysmicVariable
+B-C00054
+J105439 (c2) c2/ls static 
+J115310 (c2) c2/ls static 
+J121928 (c2) c2/ls static RedGiant
+J121952 (c2) c2/ls static 
+J123249 (c2) c2/ls static 
+J131618 (c2) c2/ls static 
+J143702 (c2) c2/ls static BlackHole
+J215944 (c2) c2/ls static 
+J223538 (c2) c2/ls static 
+B-R00007  (c2) 
+B-C00055
+J103924 (c2) c5/ns static 
+J121745 (c2) c5/ns static CataclysmicVariable
+J123412 (c2) c5/ns static CataclysmicVariable
+J123555 (c2) c5/ns static 
+J130709 (c2) c5/ns static 
+J141438 (c2) c5/ns static 
+J150627 (c2) c5/ns static 
+J151125 (c2) c5/ns static Magnetar
+J211000 (c2) c5/ns static RedGiant
+J214929 (c2) c5/ns static 
+B-C00056
+J112309 (c2) c5/ns static 
+J113449 (c2) c5/ns static Magnetar
+J123850 (c2) c5/ns static 
+J130832 (c2) c5/ns static 
+J143546 (c2) c5/ns static 
+J163923 (c2) c5/ns static 
+J165157 (c2) c5/ns static RedGiant
+J212607 (c2) c5/ns static 
+J221337 (c2) c5/ns static 
+B-C00057
+J104515 (c2) c5/ns static Wolf-Rayet Star
+J105342 (c2) c5/ns static 
+J111159 (c2) c5/ns static 
+J113039 (c2) c5/ns static 
+J120455 (c2) c5/ns static 
+J122638 (c2) c5/ns static 
+J124028 (c2) c5/ns static 
+J134735 (c2) c5/ns static 
+J140750 (c2) c5/ns static 
+J142845 (c2) c5/ns static 
+J142937 (c2) c5/ns static 
+J161411 (c2) c5/ns static Wolf-Rayet Star
+B-C00058
+J115700 (c2) c5/ns static Wolf-Rayet Star
+J121728 (c2) c5/ns static 
+J122524 (c2) c5/ns static 
+J124007 (c2) c5/ns static RedGiant
+J133632 (c2) c5/ns static RedGiant
+J143234 (c2) c5/ns static 
+J143933 (c2) c5/ns static 
+J150533 (c2) c5/ns static 
+J225128 (c2) c5/ns static Magnetar
+B-C00059
+J104321 (c2) c6/ns static 
+J115327 (c2) c6/ns static Wolf-Rayet Star
+J125824 (c2) c6/ns static 
+J125923 (c2) c6/ns static 
+J131744 (c2) c6/ns static 
+J134401 (c2) c6/ns static 
+J154937 (c2) c6/ns static 
+J161138 (c2) c6/ns static RedGiant
+J214739 (c2) c6/ns static Pulsar
+J223511 (c2) c6/ns static 
+B-R00008  (c2) 
+B-C00060
+J102739 (c2) c1/hs static 
+J104029 (c2) c1/hs static 
+J112505 (c2) c1/hs static 
+J122137 (c2) c1/hs static Magnetar
+J124749 (c2) c1/hs static 
+J133417 (c2) c1/hs static 
+J140353 (c2) c1/hs static 
+J151348 (c2) c1/hs static Pulsar
+J163522 (c2) c1/hs static 
+J171309 (c2) c1/hs static 
+B-C00061
+J112558 (c2) c1/hs static 
+J114008 (c2) c1/hs static Magnetar
+J114308 (c2) c1/hs static 
+J130125 (c2) c1/hs static 
+J131315 (c2) c1/hs static BlackHole
+J154813 (c2) c1/hs static 
+J160126 (c2) c1/hs static 
+J173213 (c2) c1/hs static 
+J215151 (c2) c1/hs static 
+J233839 (c2) c1/hs static RedGiant
+B-C00062
+J101719 (c2) c1/hs static 
+J101824 (c2) c1/hs static 
+J102602 (c2) c1/hs static 
+J105123 (c2) c1/hs static 
+J120924 (c2) c1/hs static 
+J122635 (c2) c1/hs static RedGiant
+J144739 (c2) c1/hs static 
+J152624 (c2) c1/hs static 
+J153003 (c2) c1/hs static 
+J212906 (c2) c1/hs static 
+J224145 (c2) c1/hs static 
+B-C00063
+J122931 (c2) c1/hs static 
+J124526 (c2) c1/hs static RedGiant
+J134405 (c2) c1/hs static 
+J144004 (c2) c1/hs static 
+J145246 (c2) c1/hs static RedGiant
+J163318 (c2) c1/hs static 
+J165648 (c2) c1/hs static 
+J173245 (c2) c1/hs static 
+J213111 (c2) c1/hs static 
+B-C00064
+J102209 (c2) c1/hs static 
+J105244 (c2) c1/hs static BlackHole
+J112715 (c2) c1/hs static RedGiant
+J120634 (c2) c1/hs static 
+J122118 (c2) c1/hs static Wolf-Rayet Star
+J123540 (c2) c1/hs static 
+J123958 (c2) c1/hs static CataclysmicVariable
+J135422 (c2) c1/hs static 
+J153030 (c2) c1/hs static Wolf-Rayet Star
+J162159 (c2) c1/hs static 
+B-C00065
+J100102 (c2) c1/hs static 
+J105311 (c2) c1/hs static 
+J131852 (c2) c1/hs static 
+J151248 (c2) c1/hs static 
+J154249 (c2) c1/hs static 
+J171539 (c2) c1/hs static 
+J210536 (c2) c1/hs static 
+J223552 (c2) c1/hs static Wolf-Rayet Star
+J232359 (c2) c1/hs static 
+B-C00066
+J102946 (c2) c1/hs static CataclysmicVariable
+J112617 (c2) c1/hs static 
+J113723 (c2) c1/hs static 
+J115234 (c2) c1/hs static 
+J121323 (c2) c1/hs static 
+J140722 (c2) c1/hs static 
+J141611 (c2) c1/hs static 
+J141637 (c2) c1/hs static Magnetar
+J144422 (c2) c1/hs static 
+J145145 (c2) c1/hs static RedGiant
+J145426 (c2) c1/hs static 
+J150754 (c2) c1/hs static 
+B-C00067
+J102038 (c2) c1/hs static RedGiant
+J112520 (c2) c1/hs static 
+J121749 (c2) c1/hs static 
+J122732 (c2) c1/hs static 
+J132012 (c2) c1/hs static 
+J140843 (c2) c1/hs static 
+J144203 (c2) c1/hs static 
+J150234 (c2) c1/hs static CataclysmicVariable
+J155631 (c2) c1/hs static 
+J162518 (c2) c1/hs static BlackHole
+J165412 (c2) c1/hs static 
+J235525 (c2) c1/hs static 
+B-C00068
+J101650 (c2) c1/hs static Wolf-Rayet Star
+J131842 (c2) c1/hs static 
+J133049 (c2) c1/hs static 
+J134306 (c2) c1/hs static 
+J151102 (c2) c1/hs static BlackHole
+J151311 (c2) c1/hs static 
+J161628 (c2) c1/hs static 
+J164921 (c2) c1/hs static CataclysmicVariable
+J165006 (c2) c1/hs static 
+J203814 (c2) c1/hs static 
+J232329 (c2) c1/hs static BlackHole
+B-C00069
+J100642 (c2) c1/hs static 
+J101441 (c2) c1/hs static RedGiant
+J103533 (c2) c1/hs static Magnetar
+J124253 (c2) c1/hs static 
+J124449 (c2) c1/hs static BlackHole
+J133150 (c2) c1/hs static 
+J144326 (c2) c1/hs static 
+J145634 (c2) c1/hs static 
+J164126 (c2) c1/hs static 
+J171142 (c2) c1/hs static 
+J232200 (c2) c1/hs static 
+B-C00070
+J100651 (c2) c1/hs static RedGiant
+J103619 (c2) c1/hs static Pulsar
+J121720 (c2) c1/hs static BlackHole
+J124611 (c2) c1/hs static 
+J125029 (c2) c1/hs static 
+J132103 (c2) c1/hs static 
+J145440 (c2) c1/hs static 
+J150418 (c2) c1/hs static Wolf-Rayet Star
+J151431 (c2) c1/hs static 
+J165014 (c2) c1/hs static 
+J210355 (c2) c1/hs static 
+J233555 (c2) c1/hs static 
+B-C00071
+J101710 (c2) c1/hs static BlackHole
+J112019 (c2) c1/hs static Pulsar
+J113223 (c2) c1/hs static 
+J125350 (c2) c1/hs static 
+J162042 (c2) c1/hs static 
+J162332 (c2) c1/hs static 
+J234915 (c2) c1/hs static 
+B-C00072
+J223029 (c2) c1/hs static 
+B-C00073
+J234810 (c2) c1/hs static 
+B-C00074
+J135230 (c2) c1/hs static 
+B-C00075
+J111038 (c2) c1/hs static 
+C-R00009  (c3) 
+C-C00076
+J102057 (c3) ls static Pulsar
+J113629 (c3) ls static 
+J114342 (c3) ls static BlackHole
+J152031 (c3) ls static 
+J160650 (c3) ls static 
+J220301 (c3) ls static 
+C-C00077
+J105002 (c3) ls static 
+J105007 (c3) ls static Magnetar
+J111218 (c3) ls static 
+J111634 (c3) ls static 
+J114225 (c3) ls static 
+J124753 (c3) ls static Magnetar
+C-C00078
+J101012 (c3) ls static RedGiant
+J104654 (c3) ls static 
+J111355 (c3) ls static 
+J124329 (c3) ls static RedGiant
+J161338 (c3) ls static 
+J170002 (c3) ls static 
+J205027 (c3) ls static 
+C-C00079
+J100932 (c3) ls static 
+J110448 (c3) ls static 
+J114648 (c3) ls static Pulsar
+J131228 (c3) ls static RedGiant
+J144621 (c3) ls static RedGiant
+J153104 (c3) ls static 
+C-C00080
+J102856 (c3) ls static RedGiant
+J114048 (c3) ls static 
+J115706 (c3) ls static 
+J123230 (c3) ls static Magnetar
+J123303 (c3) ls static CataclysmicVariable
+J151900 (c3) ls static CataclysmicVariable
+J152218 (c3) ls static Magnetar
+C-C00081
+J102257 (c3) ls static 
+J112850 (c3) ls static 
+J124646 (c3) ls static 
+J142414 (c3) ls static BlackHole
+J153528 (c3) ls static 
+J165803 (c3) ls static Wolf-Rayet Star
+C-C00082
+J111805 (c3) ls static Wolf-Rayet Star
+J112608 (c3) ls static 
+J115918 (c3) ls static Pulsar
+J124203 (c3) ls static 
+J161657 (c3) ls static 
+J222104 (c3) ls static 
+C-C00083
+J101750 (c3) ls static 
+J111619 (c3) ls static 
+J113451 (c3) ls static 
+J141007 (c3) ls static Wolf-Rayet Star
+J164034 (c3) ls static 
+J165001 (c3) ls static RedGiant
+C-C00084
+J105102 (c3) ls static Wolf-Rayet Star
+J124630 (c3) ls static 
+J140521 (c3) ls static Wolf-Rayet Star
+J140752 (c3) ls static CataclysmicVariable
+J142018 (c3) ls static 
+J143447 (c3) ls static 
+C-C00327
+J001348 (c3) hs/ls static CataclysmicVariable, Shattered
+J001398 (c3) ls/ns static Shattered
+J001670 (c3) ls/ns static Pulsar, Shattered
+J002838 (c3) ls/ns static Magnetar, Shattered
+J003789 (c3) hs/ls static Shattered
+J004283 (c3) ls/ns static Shattered
+J005923 (c3) ls/ns static Shattered
+J011339 (c3) hs/ls static Shattered
+J011563 (c3) hs/ls static BlackHole, Shattered
+J012794 (c3) ls/ns static Shattered
+J014348 (c3) hs/ls static RedGiant, Shattered
+C-R00010  (c3) 
+C-C00085
+J103955 (c3) ls static CataclysmicVariable
+J143916 (c3) ls static 
+J153903 (c3) ls static 
+J165302 (c3) ls static Magnetar
+J210952 (c3) ls static 
+J221414 (c3) ls static 
+C-C00086
+J102407 (c3) ls static 
+J111856 (c3) ls static 
+J131757 (c3) ls static 
+J134102 (c3) ls static 
+J140050 (c3) ls static RedGiant
+J140341 (c3) ls static 
+J151341 (c3) ls static 
+C-C00087
+J102143 (c3) ls static Wolf-Rayet Star
+J110706 (c3) ls static 
+J123452 (c3) ls static CataclysmicVariable
+J133651 (c3) ls static 
+J160847 (c3) ls static 
+J220832 (c3) ls static Pulsar
+C-C00088
+J103604 (c3) ls static Wolf-Rayet Star
+J112905 (c3) ls static 
+J113530 (c3) ls static Magnetar
+J125949 (c3) ls static 
+J144447 (c3) ls static 
+J164250 (c3) ls static BlackHole
+J212329 (c3) ls static 
+C-C00089
+J103653 (c3) ls static 
+J130403 (c3) ls static 
+J132525 (c3) ls static 
+J142038 (c3) ls static Pulsar
+J154642 (c3) ls static BlackHole
+J163526 (c3) ls static 
+C-C00090
+J113619 (c3) ls static BlackHole
+J114330 (c3) ls static 
+J132635 (c3) ls static 
+J212713 (c3) ls static 
+J214654 (c3) ls static 
+J224926 (c3) ls static 
+C-C00091
+J111214 (c3) ls static 
+J113420 (c3) ls static 
+J135526 (c3) ls static 
+J151429 (c3) ls static 
+J164116 (c3) ls static 
+J214227 (c3) ls static Pulsar
+C-C00092
+J113243 (c3) ls static 
+J122803 (c3) ls static CataclysmicVariable
+J125938 (c3) ls static 
+J134022 (c3) ls static CataclysmicVariable
+J151538 (c3) ls static Magnetar
+J164342 (c3) ls static Wolf-Rayet Star
+J165806 (c3) ls static Wolf-Rayet Star
+C-R00011  (c3) 
+C-C00093
+J112944 (c3) ls static 
+J121452 (c3) ls static 
+J124126 (c3) ls static 
+J152143 (c3) ls static 
+J164457 (c3) ls static 
+J170717 (c3) ls static 
+J173230 (c3) ls static 
+C-C00094
+J100118 (c3) ls static Magnetar
+J100620 (c3) ls static 
+J115253 (c3) ls static 
+J142520 (c3) ls static Magnetar
+J144646 (c3) ls static 
+J145916 (c3) ls static Pulsar
+J223207 (c3) ls static 
+C-C00095
+J104459 (c3) ls static RedGiant
+J125833 (c3) ls static 
+J133234 (c3) ls static 
+J150704 (c3) ls static 
+J225524 (c3) ls static BlackHole
+J230226 (c3) ls static 
+C-C00096
+J111255 (c3) ls static 
+J121628 (c3) ls static 
+J130535 (c3) ls static RedGiant
+J135355 (c3) ls static 
+J164713 (c3) ls static 
+J220838 (c3) ls static 
+J225949 (c3) ls static 
+C-C00097
+J104351 (c3) ls static 
+J115015 (c3) ls static CataclysmicVariable
+J134301 (c3) ls static Pulsar
+J144408 (c3) ls static BlackHole
+J172751 (c3) ls static RedGiant
+J221117 (c3) ls static 
+C-C00098
+J111031 (c3) ls static Magnetar
+J120452 (c3) ls static 
+J130116 (c3) ls static Magnetar
+J142026 (c3) ls static Magnetar
+J165815 (c3) ls static 
+J220950 (c3) ls static 
+C-C00099
+J111309 (c3) ls static 
+J113543 (c3) ls static 
+J122213 (c3) ls static 
+J123405 (c3) ls static 
+J125741 (c3) ls static 
+J170740 (c3) ls static 
+J170817 (c3) ls static CataclysmicVariable
+C-C00100
+J114627 (c3) ls static Wolf-Rayet Star
+J141004 (c3) ls static 
+J145040 (c3) ls static 
+J155117 (c3) ls static 
+J165118 (c3) ls static 
+J171549 (c3) ls static Pulsar
+J174317 (c3) ls static Wolf-Rayet Star
+C-C00101
+J100009 (c3) ls static Pulsar
+J100728 (c3) ls static RedGiant
+J115504 (c3) ls static 
+J124257 (c3) ls static 
+J152636 (c3) ls static 
+J154530 (c3) ls static 
+C-C00102
+J104905 (c3) ls static 
+J111421 (c3) ls static CataclysmicVariable
+J111603 (c3) ls static 
+J125149 (c3) ls static Pulsar
+J152146 (c3) ls static Pulsar
+J172743 (c3) ls static 
+C-C00103
+J113923 (c3) ls static 
+J114127 (c3) ls static BlackHole
+J123837 (c3) ls static 
+J124715 (c3) ls static BlackHole
+J124813 (c3) ls static BlackHole
+J125049 (c3) ls static 
+J161455 (c3) ls static Pulsar
+C-C00104
+J105017 (c3) ls static Pulsar
+J120945 (c3) ls static Pulsar
+J141832 (c3) ls static 
+J154900 (c3) ls static 
+J155541 (c3) ls static 
+J162459 (c3) ls static 
+J164951 (c3) ls static 
+C-C00105
+J112854 (c3) ls static RedGiant
+J115136 (c3) ls static 
+J124654 (c3) ls static Wolf-Rayet Star
+J132750 (c3) ls static 
+J155852 (c3) ls static 
+J170511 (c3) ls static 
+J222222 (c3) ls static 
+C-R00012  (c3) 
+C-C00106
+J121856 (c3) hs static 
+J122854 (c3) hs static RedGiant
+J130835 (c3) hs static 
+J131025 (c3) hs static 
+J132222 (c3) hs static 
+J134123 (c3) hs static CataclysmicVariable
+J203753 (c3) hs static 
+C-C00107
+J100129 (c3) hs static 
+J112656 (c3) hs static 
+J133857 (c3) hs static Wolf-Rayet Star
+J143513 (c3) hs static CataclysmicVariable
+J154145 (c3) hs static 
+J154357 (c3) hs static 
+J171813 (c3) hs static Magnetar
+C-C00108
+J103326 (c3) hs static 
+J124830 (c3) hs static 
+J133207 (c3) hs static Pulsar
+J144725 (c3) hs static Magnetar
+J155124 (c3) hs static 
+J170409 (c3) hs static RedGiant
+C-C00109
+J130247 (c3) hs static BlackHole
+J132737 (c3) hs static RedGiant
+J133041 (c3) hs static CataclysmicVariable
+J145851 (c3) hs static CataclysmicVariable
+J160739 (c3) hs static Pulsar
+J205412 (c3) hs static 
+C-C00110
+J101736 (c3) hs static 
+J131802 (c3) hs static Wolf-Rayet Star
+J142951 (c3) hs static 
+J151405 (c3) hs static 
+J221447 (c3) hs static 
+J221515 (c3) hs static 
+J233739 (c3) hs static 
+C-C00111
+J131859 (c3) hs static Wolf-Rayet Star
+J141451 (c3) hs static 
+J144553 (c3) hs static 
+J145615 (c3) hs static 
+J145645 (c3) hs static 
+J153051 (c3) hs static 
+J223109 (c3) hs static CataclysmicVariable
+C-C00112
+J101500 (c3) hs static 
+J103353 (c3) hs static 
+J104837 (c3) hs static 
+J132721 (c3) hs static 
+J163745 (c3) hs static 
+J173223 (c3) hs static 
+J224826 (c3) hs static Wolf-Rayet Star
+C-C00113
+J110924 (c3) hs static 
+J113334 (c3) hs static 
+J122220 (c3) hs static Magnetar
+J134136 (c3) hs static 
+J165153 (c3) hs static Pulsar
+J204030 (c3) hs static 
+J230905 (c3) hs static 
+C-C00114
+J105409 (c3) hs static 
+J125403 (c3) hs static 
+J131559 (c3) hs static RedGiant
+J152931 (c3) hs static 
+J162437 (c3) hs static 
+J163529 (c3) hs static 
+J235630 (c3) hs static 
+C-C00115
+J104643 (c3) hs static Wolf-Rayet Star
+J135036 (c3) hs static CataclysmicVariable
+J143918 (c3) hs static 
+J154634 (c3) hs static BlackHole
+J172052 (c3) hs static Pulsar
+J212304 (c3) hs static CataclysmicVariable
+C-C00116
+J101854 (c3) hs static 
+J120357 (c3) hs static 
+J121105 (c3) hs static 
+J134431 (c3) hs static 
+J154934 (c3) hs static CataclysmicVariable
+J232826 (c3) hs static 
+C-C00117
+J114916 (c3) hs static 
+J115502 (c3) hs static 
+J121300 (c3) hs static RedGiant
+J142400 (c3) hs static 
+J170132 (c3) hs static BlackHole
+J223658 (c3) hs static 
+C-C00118
+J113347 (c3) hs static 
+J124327 (c3) hs static 
+J144636 (c3) hs static 
+J150737 (c3) hs static 
+J152044 (c3) hs static Magnetar
+J220438 (c3) hs static 
+C-C00119
+J114358 (c3) hs static 
+J114508 (c3) hs static 
+J122259 (c3) hs static Pulsar
+J125243 (c3) hs static 
+J142443 (c3) hs static Wolf-Rayet Star
+J155008 (c3) hs static 
+J164104 (c3) hs static 
+C-C00120
+J100156 (c3) hs static 
+J101354 (c3) hs static 
+J101612 (c3) hs static 
+J110425 (c3) hs static Pulsar
+J113143 (c3) hs static 
+J125216 (c3) hs static 
+C-C00121
+J121603 (c3) hs static 
+J133121 (c3) hs static 
+J165936 (c3) hs static 
+J213411 (c3) hs static RedGiant
+J222120 (c3) hs static 
+J231240 (c3) hs static 
+J231545 (c3) hs static Pulsar
+C-R00013  (c3) 
+C-C00122
+J142603 (c3) ls static Wolf-Rayet Star
+J144751 (c3) ls static 
+J164338 (c3) ls static Magnetar
+J164501 (c3) ls static 
+J212812 (c3) ls static Wolf-Rayet Star
+J214744 (c3) ls static Wolf-Rayet Star
+C-C00123
+J103529 (c3) ls static 
+J113048 (c3) ls static 
+J135304 (c3) ls static 
+J161051 (c3) ls static CataclysmicVariable
+J223601 (c3) ls static Magnetar
+J224352 (c3) ls static 
+C-C00124
+J121706 (c3) ls static Pulsar
+J140322 (c3) ls static 
+J152741 (c3) ls static 
+J171542 (c3) ls static 
+J205136 (c3) ls static 
+J222732 (c3) ls static 
+C-C00125
+J103032 (c3) ls static CataclysmicVariable
+J104626 (c3) ls static 
+J110121 (c3) ls static Wolf-Rayet Star
+J143110 (c3) ls static 
+J151733 (c3) ls static Wolf-Rayet Star
+J212159 (c3) ls static 
+C-C00126
+J113339 (c3) ls static Pulsar
+J113432 (c3) ls static BlackHole
+J122041 (c3) ls static 
+J130719 (c3) ls static 
+J134629 (c3) ls static 
+J150048 (c3) ls static 
+C-C00127
+J101048 (c3) ls static 
+J104903 (c3) ls static 
+J110411 (c3) ls static 
+J114119 (c3) ls static BlackHole
+J151433 (c3) ls static 
+J204039 (c3) ls static Magnetar
+C-C00128
+J131716 (c3) ls static RedGiant
+J133521 (c3) ls static 
+J135214 (c3) ls static Magnetar
+J143040 (c3) ls static 
+J163911 (c3) ls static RedGiant
+J204842 (c3) ls static 
+J225350 (c3) ls static RedGiant
+C-R00014  (c3) 
+C-C00129
+J105447 (c3) ns static 
+J121921 (c3) ns static Wolf-Rayet Star
+J144103 (c3) ns static 
+J145717 (c3) ns static Pulsar
+J165847 (c3) ns static CataclysmicVariable
+J212025 (c3) ns static Magnetar
+C-C00130
+J113705 (c3) ns static BlackHole
+J114506 (c3) ns static 
+J132037 (c3) ns static 
+J152544 (c3) ns static Wolf-Rayet Star
+J224401 (c3) ns static 
+J231245 (c3) ns static RedGiant
+C-C00131
+J105033 (c3) ns static 
+J131245 (c3) ns static Pulsar
+J151045 (c3) ns static 
+J151804 (c3) ns static Pulsar
+J152333 (c3) ns static 
+J160822 (c3) ns static 
+J214600 (c3) ns static BlackHole
+C-C00132
+J114010 (c3) ns static 
+J115512 (c3) ns static 
+J122442 (c3) ns static BlackHole
+J125944 (c3) ns static Magnetar
+J153546 (c3) ns static Wolf-Rayet Star
+J161854 (c3) ns static BlackHole
+J173330 (c3) ns static 
+C-C00133
+J101243 (c3) ns static 
+J141046 (c3) ns static 
+J152757 (c3) ns static 
+J160111 (c3) ns static Wolf-Rayet Star
+J164729 (c3) ns static Wolf-Rayet Star
+J171420 (c3) ns static 
+J214009 (c3) ns static 
+C-C00134
+J120124 (c3) ns static 
+J131656 (c3) ns static 
+J132746 (c3) ns static 
+J135406 (c3) ns static BlackHole
+J230708 (c3) ns static 
+J232441 (c3) ns static RedGiant
+C-C00135
+J104416 (c3) ns static Pulsar
+J104835 (c3) ns static 
+J104841 (c3) ns static 
+J113647 (c3) ns static 
+J144316 (c3) ns static Pulsar
+J172701 (c3) ns static Wolf-Rayet Star
+J212207 (c3) ns static 
+C-C00136
+J114612 (c3) ns static 
+J130759 (c3) ns static 
+J131324 (c3) ns static RedGiant
+J134118 (c3) ns static CataclysmicVariable
+J164751 (c3) ns static 
+J230722 (c3) ns static BlackHole
+C-C00137
+J145555 (c3) ns static 
+J151242 (c3) ns static 
+J154449 (c3) ns static 
+J164223 (c3) ns static Pulsar
+J172815 (c3) ns static 
+J213423 (c3) ns static RedGiant
+C-C00138
+J101323 (c3) ns static 
+J112954 (c3) ns static 
+J133951 (c3) ns static 
+J150444 (c3) ns static 
+J153858 (c3) ns static 
+J172422 (c3) ns static Magnetar
+C-C00139
+J121422 (c3) ns static 
+J123443 (c3) ns static 
+J125449 (c3) ns static Pulsar
+J155403 (c3) ns static 
+J155545 (c3) ns static 
+J161441 (c3) ns static 
+J210445 (c3) ns static 
+C-C00140
+J103724 (c3) ns static RedGiant
+J112948 (c3) ns static BlackHole
+J121507 (c3) ns static 
+J125016 (c3) ns static CataclysmicVariable
+J151516 (c3) ns static 
+J235330 (c3) ns static 
+J235712 (c3) ns static 
+C-C00141
+J132226 (c3) ns static BlackHole
+J150135 (c3) ns static 
+J151645 (c3) ns static Wolf-Rayet Star
+J155722 (c3) ns static 
+J170656 (c3) ns static 
+J211151 (c3) ns static 
+C-C00142
+J102433 (c3) ns static 
+J111823 (c3) ns static 
+J172028 (c3) ns static 
+J211805 (c3) ns static 
+J213109 (c3) ns static 
+J233628 (c3) ns static 
+C-C00143
+J101833 (c3) ns static 
+J104815 (c3) ns static 
+J110738 (c3) ns static 
+J124635 (c3) ns static BlackHole
+J143704 (c3) ns static 
+J170550 (c3) ns static 
+C-R00015  (c3) 
+C-C00144
+J112942 (c3) ls static 
+J143614 (c3) ls static 
+J153034 (c3) ls static Pulsar
+J170236 (c3) ls static 
+J171828 (c3) ls static 
+J220338 (c3) ls static 
+C-C00145
+J112709 (c3) ls static Wolf-Rayet Star
+J140739 (c3) ls static Pulsar
+J161213 (c3) ls static 
+J165224 (c3) ls static 
+J170144 (c3) ls static 
+J213534 (c3) ls static Wolf-Rayet Star
+C-C00146
+J100338 (c3) ls static 
+J104330 (c3) ls static 
+J104421 (c3) ls static CataclysmicVariable
+J110226 (c3) ls static CataclysmicVariable
+J162010 (c3) ls static CataclysmicVariable
+J170376 (c3) ls static 
+C-C00147
+J100015 (c3) ls static 
+J110034 (c3) ls static 
+J122806 (c3) ls static 
+J124207 (c3) ls static 
+J132907 (c3) ls static 
+J133250 (c3) ls static 
+J144024 (c3) ls static 
+C-C00148
+J103237 (c3) ls static 
+J105549 (c3) ls static 
+J120742 (c3) ls static 
+J130616 (c3) ls static Magnetar
+J135852 (c3) ls static 
+J204323 (c3) ls static 
+J215326 (c3) ls static 
+C-C00149
+J105201 (c3) ls static CataclysmicVariable
+J112420 (c3) ls static 
+J121700 (c3) ls static CataclysmicVariable
+J124358 (c3) ls static 
+J130022 (c3) ls static Magnetar
+J135723 (c3) ls static Wolf-Rayet Star
+J155419 (c3) ls static 
+C-C00150
+J112747 (c3) ls static 
+J115448 (c3) ls static 
+J133218 (c3) ls static Magnetar
+J135642 (c3) ls static 
+J143345 (c3) ls static 
+J205900 (c3) ls static 
+C-C00151
+J102304 (c3) ls static 
+J104001 (c3) ls static 
+J121027 (c3) ls static 
+J124744 (c3) ls static Pulsar
+J141848 (c3) ls static 
+J161303 (c3) ls static 
+C-C00152
+J102515 (c3) ls static 
+J115909 (c3) ls static 
+J131304 (c3) ls static Magnetar
+J135129 (c3) ls static BlackHole
+J145632 (c3) ls static 
+J160645 (c3) ls static 
+J172852 (c3) ls static 
+D-R00016  (c4) 
+D-C00153
+J104754 (c4) c2/c4 static 
+J113925 (c4) c2/c4 static BlackHole
+J130518 (c4) c2/c4 static 
+J142200 (c4) c2/c4 static CataclysmicVariable
+J160225 (c4) c2/c4 static 
+J204815 (c4) c2/c4 static 
+J210458 (c4) c2/c4 static Wolf-Rayet Star
+D-C00154
+J100046 (c4) c2/c4 static CataclysmicVariable
+J103731 (c4) c2/c4 static 
+J115018 (c4) c2/c4 static Wolf-Rayet Star
+J133458 (c4) c2/c4 static 
+J165839 (c4) c2/c4 static BlackHole
+J230301 (c4) c2/c4 static 
+J235953 (c4) c2/c4 static 
+D-C00155
+J120937 (c4) c2/c4 static 
+J130253 (c4) c2/c4 static 
+J160419 (c4) c2/c4 static 
+J165820 (c4) c2/c4 static 
+J170215 (c4) c2/c4 static 
+J214811 (c4) c2/c4 static 
+J221859 (c4) c2/c4 static 
+D-C00156
+J112610 (c4) c1/c2 static 
+J123726 (c4) c1/c2 static BlackHole
+J124837 (c4) c1/c2 static 
+J151643 (c4) c1/c2 static Pulsar
+J160321 (c4) c1/c2 static 
+J161752 (c4) c1/c2 static 
+J165308 (c4) c1/c2 static CataclysmicVariable
+D-C00157
+J113456 (c4) c2/c5 static 
+J115547 (c4) c2/c5 static CataclysmicVariable
+J121845 (c4) c2/c5 static CataclysmicVariable
+J141055 (c4) c2/c5 static 
+J144746 (c4) c2/c5 static 
+J153202 (c4) c2/c5 static 
+J171359 (c4) c2/c5 static 
+D-C00158
+J100956 (c4) c2/c5 static 
+J101507 (c4) c2/c5 static RedGiant
+J111029 (c4) c2/c5 static 
+J113730 (c4) c2/c5 static RedGiant
+J134407 (c4) c2/c5 static 
+J145129 (c4) c2/c5 static 
+J171554 (c4) c2/c5 static Magnetar
+D-C00159
+J102534 (c4) c2/c3 static Wolf-Rayet Star
+J105546 (c4) c2/c3 static Wolf-Rayet Star
+J123528 (c4) c2/c3 static 
+J132611 (c4) c2/c3 static 
+J145318 (c4) c2/c3 static BlackHole
+J153338 (c4) c2/c3 static 
+D-C00160
+J100150 (c4) c2/c5 static BlackHole
+J131047 (c4) c2/c5 static RedGiant
+J141218 (c4) c2/c5 static BlackHole
+J142241 (c4) c2/c5 static CataclysmicVariable
+J144519 (c4) c2/c5 static Magnetar
+J152255 (c4) c2/c5 static Magnetar
+D-C00161
+J101551 (c4) c2/c3 static 
+J104311 (c4) c2/c3 static BlackHole
+J105415 (c4) c2/c3 static CataclysmicVariable
+J111950 (c4) c2/c3 static 
+J132754 (c4) c2/c3 static Wolf-Rayet Star
+J211027 (c4) c2/c3 static 
+D-C00328
+J001302 (c4) c5/c6/ns static Magnetar, Shattered
+J001769 (c4) c4/c5/ns static Wolf-Rayet Star, Shattered
+J002423 (c4) c1/c2/hs static Magnetar, Shattered
+J002625 (c4) c3/c4/ls static BlackHole, Shattered
+J004150 (c4) c2/c3/hs static Wolf-Rayet Star, Shattered
+J004470 (c4) c3/c4/ls static BlackHole, Shattered
+J005259 (c4) c3/c4/hs static RedGiant, Shattered
+J005280 (c4) c3/c4/ls static Shattered
+J005299 (c4) c3/c5/ns static Shattered
+J005872 (c4) c1/c3/ls static Shattered
+J005969 (c4) c5/c6/ns static RedGiant, Shattered
+J010247 (c4) c2/c4/ls static CataclysmicVariable, Shattered
+J010556 (c4) c1/c2/hs static Pulsar, Shattered
+J011195 (c4) c4/c5/ls static Shattered
+J011355 (c4) c3/c4 static Shattered
+J011376 (c4) c4/c5/ls static Shattered
+J011778 (c4) c1/c3/hs static Pulsar, Shattered
+J011824 (c4) c3/c4/ls static CataclysmicVariable, Shattered
+D-R00017  (c4) 
+D-C00162
+J100806 (c4) c5/c6 static 
+J101706 (c4) c5/c6 static 
+J103110 (c4) c5/c6 static BlackHole
+J133638 (c4) c5/c6 static 
+J224148 (c4) c5/c6 static Wolf-Rayet Star
+J231614 (c4) c5/c6 static 
+D-C00163
+J122656 (c4) c3/c6 static BlackHole
+J133113 (c4) c3/c6 static 
+J134716 (c4) c3/c6 static 
+J142214 (c4) c3/c6 static 
+J155340 (c4) c3/c6 static 
+J165326 (c4) c3/c6 static CataclysmicVariable
+J171344 (c4) c3/c6 static RedGiant
+D-C00164
+J104649 (c4) c5/c6 static Magnetar
+J105346 (c4) c5/c6 static Wolf-Rayet Star
+J111404 (c4) c5/c6 static CataclysmicVariable
+J150112 (c4) c5/c6 static RedGiant
+J154631 (c4) c5/c6 static RedGiant
+J161119 (c4) c5/c6 static 
+D-C00165
+J105726 (c4) c4/c6 static 
+J111758 (c4) c4/c6 static CataclysmicVariable
+J114026 (c4) c4/c6 static 
+J115118 (c4) c4/c6 static 
+J142923 (c4) c4/c6 static 
+J234421 (c4) c4/c6 static 
+D-R00018  (c4) 
+D-C00166
+J113754 (c4) c1/c3 static Magnetar
+J125302 (c4) c1/c3 static 
+J153215 (c4) c1/c3 static Wolf-Rayet Star
+J162226 (c4) c1/c3 static RedGiant
+J165020 (c4) c1/c3 static Wolf-Rayet Star
+J213820 (c4) c1/c3 static 
+D-C00167
+J111555 (c4) c1/c2 static 
+J113250 (c4) c1/c2 static Magnetar
+J131553 (c4) c1/c2 static 
+J143841 (c4) c1/c2 static 
+J204635 (c4) c1/c2 static 
+J212954 (c4) c1/c2 static 
+D-C00168
+J132149 (c4) c1/c5 static 
+J132309 (c4) c1/c5 static 
+J152443 (c4) c1/c5 static 
+J155338 (c4) c1/c5 static 
+J160800 (c4) c1/c5 static Pulsar
+J171937 (c4) c1/c5 static 
+J231341 (c4) c1/c5 static 
+D-C00169
+J111329 (c4) c1/c4 static RedGiant
+J115552 (c4) c1/c4 static 
+J125031 (c4) c1/c4 static 
+J145838 (c4) c1/c4 static 
+J151520 (c4) c1/c4 static Pulsar
+J165920 (c4) c1/c4 static 
+J171334 (c4) c1/c4 static 
+D-C00170
+J103008 (c4) c1/c2 static Magnetar
+J103704 (c4) c1/c2 static Magnetar
+J104603 (c4) c1/c2 static Pulsar
+J110736 (c4) c1/c2 static Wolf-Rayet Star
+J135508 (c4) c1/c2 static 
+J155521 (c4) c1/c2 static CataclysmicVariable
+J165423 (c4) c1/c2 static 
+D-C00171
+J101126 (c4) c1/c4 static 
+J105411 (c4) c1/c4 static 
+J110016 (c4) c1/c4 static RedGiant
+J122155 (c4) c1/c4 static Wolf-Rayet Star
+J163641 (c4) c1/c4 static BlackHole
+J203952 (c4) c1/c4 static 
+J212417 (c4) c1/c4 static CataclysmicVariable
+D-C00172
+J120643 (c4) c1/c3 static Pulsar
+J121347 (c4) c1/c3 static CataclysmicVariable
+J142355 (c4) c1/c3 static RedGiant
+J155416 (c4) c1/c3 static 
+J172915 (c4) c1/c3 static 
+J211258 (c4) c1/c3 static 
+D-R00019  (c4) 
+D-C00173
+J125247 (c4) c2/c4 static 
+J134851 (c4) c2/c4 static Wolf-Rayet Star
+J143946 (c4) c2/c4 static Pulsar
+J144732 (c4) c2/c4 static Magnetar
+J145452 (c4) c2/c4 static 
+J155711 (c4) c2/c4 static Wolf-Rayet Star
+J214308 (c4) c2/c4 static 
+D-C00174
+J113727 (c4) c1/c4 static Magnetar
+J115026 (c4) c1/c4 static BlackHole
+J130944 (c4) c1/c4 static 
+J145238 (c4) c1/c4 static 
+J151353 (c4) c1/c4 static BlackHole
+J151720 (c4) c1/c4 static 
+J235219 (c4) c1/c4 static 
+D-C00175
+J101915 (c4) c3/c4 static Magnetar
+J110719 (c4) c3/c4 static 
+J130203 (c4) c3/c4 static Wolf-Rayet Star
+J135836 (c4) c3/c4 static Pulsar
+J141322 (c4) c3/c4 static Pulsar
+J172512 (c4) c3/c4 static 
+J210333 (c4) c3/c4 static 
+D-C00176
+J114355 (c4) c3/c4 static CataclysmicVariable
+J121623 (c4) c3/c4 static Pulsar
+J1226-0 (c4) c3/c4 static 
+J130332 (c4) c3/c4 static 
+J131208 (c4) c3/c4 static BlackHole
+J150637 (c4) c3/c4 static 
+D-C00177
+J103242 (c4) c3/c4 static CataclysmicVariable
+J131004 (c4) c3/c4 static BlackHole
+J132256 (c4) c3/c4 static CataclysmicVariable
+J141931 (c4) c3/c4 static 
+J144401 (c4) c3/c4 static RedGiant
+J161815 (c4) c3/c4 static 
+J162819 (c4) c3/c4 static 
+D-C00178
+J102439 (c4) c4/c6 static Magnetar
+J112630 (c4) c4/c6 static 
+J131712 (c4) c4/c6 static 
+J153116 (c4) c4/c6 static BlackHole
+J154109 (c4) c4/c6 static 
+J160455 (c4) c4/c6 static 
+J160459 (c4) c4/c6 static RedGiant
+D-C00179
+J120409 (c4) c4/c5 static 
+J125213 (c4) c4/c5 static Magnetar
+J140244 (c4) c4/c5 static Wolf-Rayet Star
+J140545 (c4) c4/c5 static 
+J150635 (c4) c4/c5 static RedGiant
+J154541 (c4) c4/c5 static 
+D-C00180
+J104502 (c4) c4/c5 static 
+J120450 (c4) c4/c5 static RedGiant
+J124727 (c4) c4/c5 static 
+J151940 (c4) c4/c5 static 
+J152654 (c4) c4/c5 static CataclysmicVariable
+J162251 (c4) c4/c5 static BlackHole
+J220151 (c4) c4/c5 static 
+D-C00181
+J141633 (c4) c4/c5 static 
+J145604 (c4) c4/c5 static 
+J145659 (c4) c4/c5 static 
+J165719 (c4) c4/c5 static Pulsar
+J212129 (c4) c4/c5 static 
+J212851 (c4) c4/c5 static Magnetar
+D-C00182
+J112110 (c4) c4/c6 static 
+J130828 (c4) c4/c6 static Wolf-Rayet Star
+J140912 (c4) c4/c6 static 
+J141252 (c4) c4/c6 static CataclysmicVariable
+J154706 (c4) c4/c6 static 
+J161037 (c4) c4/c6 static 
+J165532 (c4) c4/c6 static 
+D-C00183
+J122934 (c4) c3/c4 static 
+J123458 (c4) c3/c4 static 
+J124109 (c4) c3/c4 static BlackHole
+J133157 (c4) c3/c4 static Pulsar
+J134527 (c4) c3/c4 static Wolf-Rayet Star
+J163435 (c4) c3/c4 static Wolf-Rayet Star
+J221855 (c4) c3/c4 static Magnetar
+D-C00184
+J112928 (c4) c3/c4 static 
+J130343 (c4) c3/c4 static BlackHole
+J133358 (c4) c3/c4 static 
+J141342 (c4) c3/c4 static 
+J145757 (c4) c3/c4 static BlackHole
+J152628 (c4) c3/c4 static BlackHole
+D-C00185
+J102844 (c4) c4/c5 static 
+J103104 (c4) c4/c5 static CataclysmicVariable
+J131037 (c4) c4/c5 static 
+J134732 (c4) c4/c5 static RedGiant
+J154724 (c4) c4/c5 static 
+J213139 (c4) c4/c5 static Pulsar
+J213615 (c4) c4/c5 static Magnetar
+D-C00186
+J102409 (c4) c4/c5 static 
+J102521 (c4) c4/c5 static 
+J104714 (c4) c4/c5 static Pulsar
+J121116 (c4) c4/c5 static Wolf-Rayet Star
+J142822 (c4) c4/c5 static Wolf-Rayet Star
+J162303 (c4) c4/c5 static BlackHole
+J215935 (c4) c4/c5 static 
+D-R00020  (c4) 
+D-C00187
+J124306 (c4) c2/c4 static 
+J124930 (c4) c2/c4 static 
+J135908 (c4) c2/c4 static 
+J155313 (c4) c2/c4 static 
+J162632 (c4) c2/c4 static 
+J171225 (c4) c2/c4 static BlackHole
+D-C00188
+J112150 (c4) c4/c5 static 
+J115304 (c4) c4/c5 static 
+J131252 (c4) c4/c5 static 
+J133957 (c4) c4/c5 static RedGiant
+J204506 (c4) c4/c5 static 
+J211328 (c4) c4/c5 static 
+D-C00189
+J101331 (c4) c2/c4 static 
+J133936 (c4) c2/c4 static 
+J140215 (c4) c2/c4 static 
+J143140 (c4) c2/c4 static Magnetar
+J150951 (c4) c2/c4 static BlackHole
+J151359 (c4) c2/c4 static 
+J154833 (c4) c2/c4 static 
+D-C00190
+J101604 (c4) c2/c4 static Pulsar
+J130554 (c4) c2/c4 static 
+J131113 (c4) c2/c4 static 
+J134414 (c4) c2/c4 static 
+J150320 (c4) c2/c4 static BlackHole
+J152421 (c4) c2/c4 static 
+D-C00191
+J124933 (c4) c3/c4 static CataclysmicVariable
+J141021 (c4) c3/c4 static 
+J145535 (c4) c3/c4 static 
+J145944 (c4) c3/c4 static 
+J150044 (c4) c3/c4 static 
+J155200 (c4) c3/c4 static 
+D-C00192
+J115528 (c4) c2/c4 static 
+J143922 (c4) c2/c4 static 
+J164835 (c4) c2/c4 static BlackHole
+J165645 (c4) c2/c4 static Pulsar
+J212028 (c4) c2/c4 static Magnetar
+J223312 (c4) c2/c4 static 
+J225234 (c4) c2/c4 static 
+D-C00193
+J100142 (c4) c1/c4 static 
+J101129 (c4) c1/c4 static 
+J104404 (c4) c1/c4 static 
+J112450 (c4) c1/c4 static 
+J121558 (c4) c1/c4 static 
+J141220 (c4) c1/c4 static Magnetar
+D-C00194
+J104624 (c4) c3/c4 static 
+J113227 (c4) c3/c4 static Pulsar
+J144329 (c4) c3/c4 static 
+J152633 (c4) c3/c4 static 
+J154102 (c4) c3/c4 static 
+J211817 (c4) c3/c4 static Pulsar
+D-R00021  (c4) 
+D-C00195
+J101042 (c4) c3/c4 static CataclysmicVariable
+J123753 (c4) c3/c4 static 
+J145848 (c4) c3/c4 static RedGiant
+J151303 (c4) c3/c4 static RedGiant
+J152720 (c4) c3/c4 static Magnetar
+J162231 (c4) c3/c4 static 
+J223824 (c4) c3/c4 static 
+D-C00196
+J111007 (c4) c1/c3 static 
+J125929 (c4) c1/c3 static 
+J135346 (c4) c1/c3 static 
+J144120 (c4) c1/c3 static BlackHole
+J215743 (c4) c1/c3 static 
+J225111 (c4) c1/c3 static 
+D-C00197
+J101145 (c4) c3/c5 static Pulsar
+J103141 (c4) c3/c5 static BlackHole
+J112215 (c4) c3/c5 static 
+J141001 (c4) c3/c5 static 
+J163444 (c4) c3/c5 static 
+J215758 (c4) c3/c5 static 
+J231710 (c4) c3/c5 static Magnetar
+D-C00198
+J101535 (c4) c2/c3 static Pulsar
+J111458 (c4) c2/c3 static 
+J115554 (c4) c2/c3 static 
+J124236 (c4) c2/c3 static CataclysmicVariable
+J162831 (c4) c2/c3 static 
+J170445 (c4) c2/c3 static 
+J212838 (c4) c2/c3 static 
+D-C00199
+J102336 (c4) c2/c3 static 
+J113551 (c4) c2/c3 static RedGiant
+J114530 (c4) c2/c3 static CataclysmicVariable
+J123352 (c4) c2/c3 static 
+J155214 (c4) c2/c3 static 
+J162656 (c4) c2/c3 static 
+D-C00200
+J100107 (c4) c3/c4 static 
+J100937 (c4) c3/c4 static CataclysmicVariable
+J134354 (c4) c3/c4 static 
+J160046 (c4) c3/c4 static 
+J204230 (c4) c3/c4 static 
+J233909 (c4) c3/c4 static 
+D-C00201
+J100830 (c4) c3/c4 static 
+J102045 (c4) c3/c4 static Pulsar
+J115658 (c4) c3/c4 static 
+J123947 (c4) c3/c4 static CataclysmicVariable
+J162816 (c4) c3/c4 static Magnetar
+J170305 (c4) c3/c4 static BlackHole
+D-C00202
+J114133 (c4) c2/c3 static Magnetar
+J140246 (c4) c2/c3 static 
+J144135 (c4) c2/c3 static BlackHole
+J151021 (c4) c2/c3 static 
+J214440 (c4) c2/c3 static 
+J224754 (c4) c2/c3 static 
+D-C00203
+J121847 (c4) c3/c5 static 
+J130810 (c4) c3/c5 static RedGiant
+J140810 (c4) c3/c5 static 
+J141104 (c4) c3/c5 static 
+J141425 (c4) c3/c5 static 
+J150805 (c4) c3/c5 static 
+D-C00204
+J114735 (c4) c3/c5 static 
+J121006 (c4) c3/c5 static Pulsar
+J144131 (c4) c3/c5 static 
+J205922 (c4) c3/c5 static BlackHole
+J213429 (c4) c3/c5 static RedGiant
+J215101 (c4) c3/c5 static 
+D-C00205
+J103228 (c4) c1/c3 static 
+J103631 (c4) c1/c3 static 
+J111644 (c4) c1/c3 static CataclysmicVariable
+J155249 (c4) c1/c3 static Pulsar
+J163217 (c4) c1/c3 static CataclysmicVariable
+J164025 (c4) c1/c3 static 
+J164031 (c4) c1/c3 static 
+D-C00206
+J104723 (c4) c3/c4 static Pulsar
+J112404 (c4) c3/c4 static Magnetar
+J114408 (c4) c3/c4 static 
+J123746 (c4) c3/c4 static 
+J131704 (c4) c3/c4 static 
+J145739 (c4) c3/c4 static 
+J225441 (c4) c3/c4 static Magnetar
+D-C00207
+J111009 (c4) c3/c4 static 
+J111629 (c4) c3/c4 static CataclysmicVariable
+J133013 (c4) c3/c4 static RedGiant
+J140154 (c4) c3/c4 static RedGiant
+J144743 (c4) c3/c4 static Wolf-Rayet Star
+J160032 (c4) c3/c4 static BlackHole
+J210247 (c4) c3/c4 static 
+D-C00208
+J110417 (c4) c3/c5 static 
+J132144 (c4) c3/c5 static RedGiant
+J142117 (c4) c3/c5 static 
+J142335 (c4) c3/c5 static 
+J160016 (c4) c3/c5 static 
+J204853 (c4) c3/c5 static 
+D-C00209
+J102055 (c4) c3/c5 static 
+J105835 (c4) c3/c5 static 
+J134333 (c4) c3/c5 static 
+J140932 (c4) c3/c5 static Wolf-Rayet Star
+J150944 (c4) c3/c5 static Magnetar
+J160156 (c4) c3/c5 static 
+D-C00210
+J113158 (c4) c3/c5 static RedGiant
+J113508 (c4) c3/c5 static 
+J130451 (c4) c3/c5 static Wolf-Rayet Star
+J142800 (c4) c3/c5 static Magnetar
+J151757 (c4) c3/c5 static 
+J170642 (c4) c3/c5 static Pulsar
+J225133 (c4) c3/c5 static RedGiant
+D-C00211
+J100001 (c4) c3/c6 static 
+J132735 (c4) c3/c6 static 
+J135543 (c4) c3/c6 static 
+J145749 (c4) c3/c6 static BlackHole
+J155831 (c4) c3/c6 static 
+J164659 (c4) c3/c6 static 
+D-C00212
+J101315 (c4) c2/c3 static 
+J105621 (c4) c2/c3 static RedGiant
+J113813 (c4) c2/c3 static Pulsar
+J123345 (c4) c2/c3 static 
+J135807 (c4) c2/c3 static 
+J141740 (c4) c2/c3 static Pulsar
+D-R00022  (c4) 
+D-C00213
+J104729 (c4) c3/c5 static RedGiant
+J110915 (c4) c3/c5 static 
+J111753 (c4) c3/c5 static Pulsar
+J122728 (c4) c3/c5 static 
+J154321 (c4) c3/c5 static 
+J171430 (c4) c3/c5 static Magnetar
+D-C00214
+J113950 (c4) c4/c5 static 
+J124224 (c4) c4/c5 static 
+J140823 (c4) c4/c5 static 
+J155959 (c4) c4/c5 static 
+J161357 (c4) c4/c5 static BlackHole
+J162205 (c4) c4/c5 static 
+D-C00215
+J103213 (c4) c3/c5 static 
+J105858 (c4) c3/c5 static Wolf-Rayet Star
+J165058 (c4) c3/c5 static 
+J170151 (c4) c3/c5 static Pulsar
+J172502 (c4) c3/c5 static 
+J173638 (c4) c3/c5 static 
+D-C00216
+J130330 (c4) c4/c5 static Pulsar
+J132740 (c4) c4/c5 static 
+J133931 (c4) c4/c5 static Magnetar
+J141316 (c4) c4/c5 static 
+J143902 (c4) c4/c5 static 
+J165105 (c4) c4/c5 static CataclysmicVariable
+D-C00217
+J100846 (c4) c2/c5 static BlackHole
+J113152 (c4) c2/c5 static 
+J113453 (c4) c2/c5 static Magnetar
+J140053 (c4) c2/c5 static 
+J144845 (c4) c2/c5 static 
+J151416 (c4) c2/c5 static Wolf-Rayet Star
+D-C00218
+J103538 (c4) c3/c5 static 
+J150656 (c4) c3/c5 static BlackHole
+J154854 (c4) c3/c5 static 
+J165943 (c4) c3/c5 static Wolf-Rayet Star
+J212627 (c4) c3/c5 static BlackHole
+J224031 (c4) c3/c5 static Pulsar
+D-C00219
+J103120 (c4) c3/c5 static CataclysmicVariable
+J113131 (c4) c3/c5 static 
+J122503 (c4) c3/c5 static 
+J125316 (c4) c3/c5 static Magnetar
+J164528 (c4) c3/c5 static Pulsar
+J215455 (c4) c3/c5 static 
+D-C00220
+J103412 (c4) c4/c5 static 
+J111617 (c4) c4/c5 static BlackHole
+J144038 (c4) c4/c5 static Pulsar
+J150318 (c4) c4/c5 static CataclysmicVariable
+J154610 (c4) c4/c5 static Wolf-Rayet Star
+J172926 (c4) c4/c5 static 
+J211504 (c4) c4/c5 static 
+D-C00221
+J100346 (c4) c2/c5 static 
+J101142 (c4) c2/c5 static 
+J130001 (c4) c2/c5 static 
+J143557 (c4) c2/c5 static RedGiant
+J154232 (c4) c2/c5 static 
+J155002 (c4) c2/c5 static 
+D-C00222
+J100357 (c4) c4/c5 static 
+J115031 (c4) c4/c5 static 
+J122706 (c4) c4/c5 static 
+J142506 (c4) c4/c5 static Magnetar
+J155506 (c4) c4/c5 static 
+J163754 (c4) c4/c5 static 
+D-C00223
+J113437 (c4) c3/c5 static 
+J114318 (c4) c3/c5 static RedGiant
+J150625 (c4) c3/c5 static 
+J152711 (c4) c3/c5 static BlackHole
+J153110 (c4) c3/c5 static RedGiant
+J160929 (c4) c3/c5 static BlackHole
+J213924 (c4) c3/c5 static 
+D-C00224
+J114031 (c4) c2/c5 static 
+J120316 (c4) c2/c5 static CataclysmicVariable
+J122056 (c4) c2/c5 static RedGiant
+J132532 (c4) c2/c5 static 
+J145937 (c4) c2/c5 static BlackHole
+J151610 (c4) c2/c5 static RedGiant
+J170127 (c4) c2/c5 static 
+D-C00225
+J101835 (c4) c1/c5 static CataclysmicVariable
+J103907 (c4) c1/c5 static 
+J104948 (c4) c1/c5 static CataclysmicVariable
+J120844 (c4) c1/c5 static 
+J130237 (c4) c1/c5 static 
+J145424 (c4) c1/c5 static CataclysmicVariable
+D-C00226
+J120131 (c4) c5/c6 static 
+J120134 (c4) c5/c6 static Pulsar
+J134216 (c4) c5/c6 static Wolf-Rayet Star
+J154824 (c4) c5/c6 static Wolf-Rayet Star
+J161029 (c4) c5/c6 static 
+J224558 (c4) c5/c6 static 
+D-R00023  (c4) 
+D-C00227
+J140720 (c4) c3/c4 static 
+J152502 (c4) c3/c4 static 
+J154407 (c4) c3/c4 static 
+J220215 (c4) c3/c4 static Pulsar
+J222125 (c4) c3/c4 static BlackHole
+J225530 (c4) c3/c4 static Magnetar
+D-C00228
+J101957 (c4) c2/c3 static Wolf-Rayet Star
+J105348 (c4) c2/c3 static RedGiant
+J105433 (c4) c2/c3 static 
+J141647 (c4) c2/c3 static 
+J153722 (c4) c2/c3 static Magnetar
+J223808 (c4) c2/c3 static BlackHole
+D-C00229
+J105319 (c4) c3/c4 static 
+J113133 (c4) c3/c4 static 
+J123246 (c4) c3/c4 static CataclysmicVariable
+J125629 (c4) c3/c4 static Pulsar
+J150026 (c4) c3/c4 static Wolf-Rayet Star
+J162828 (c4) c3/c4 static CataclysmicVariable
+J233449 (c4) c3/c4 static 
+D-C00230
+J112722 (c4) c3/c4 static Magnetar
+J132152 (c4) c3/c4 static 
+J145335 (c4) c3/c4 static 
+J152404 (c4) c3/c4 static RedGiant
+J162255 (c4) c3/c4 static 
+J215615 (c4) c3/c4 static Magnetar
+D-C00231
+J131624 (c4) c1/c3 static Magnetar
+J134459 (c4) c1/c3 static 
+J165611 (c4) c1/c3 static BlackHole
+E-R00024  (c5) 
+E-C00232
+J103251 (c5) c5 static Magnetar
+J111220 (c5) c5 static 
+J122515 (c5) c5 static Wolf-Rayet Star
+J134242 (c5) c5 static 
+J135100 (c5) c5 static 
+J152820 (c5) c5 static Pulsar
+J170540 (c5) c5 static Wolf-Rayet Star
+J172943 (c5) c5 static 
+J205738 (c5) c5 static 
+E-C00233
+J100702 (c5) c1 static BlackHole
+J100724 (c5) c1 static RedGiant
+J102446 (c5) c1 static BlackHole
+J124730 (c5) c1 static BlackHole
+J132823 (c5) c1 static 
+J133119 (c5) c1 static Magnetar
+J141137 (c5) c1 static 
+J162638 (c5) c1 static Pulsar
+J164147 (c5) c1 static 
+J224721 (c5) c1 static CataclysmicVariable
+E-C00234
+J110550 (c5) c2 static 
+J112325 (c5) c2 static CataclysmicVariable
+J133537 (c5) c2 static BlackHole
+J135449 (c5) c2 static BlackHole
+J150606 (c5) c2 static Wolf-Rayet Star
+J155714 (c5) c2 static Pulsar
+J205659 (c5) c2 static RedGiant
+J223018 (c5) c2 static Pulsar
+J230257 (c5) c2 static 
+E-C00235
+J100120 (c5) c2 static 
+J111106 (c5) c2 static CataclysmicVariable
+J121230 (c5) c2 static 
+J145203 (c5) c2 static Wolf-Rayet Star
+J151057 (c5) c2 static 
+J213245 (c5) c2 static Wolf-Rayet Star
+J222834 (c5) c2 static 
+E-C00236
+J122721 (c5) c5 static Magnetar
+J133440 (c5) c5 static 
+J153144 (c5) c5 static 
+J154733 (c5) c5 static 
+J161032 (c5) c5 static 
+J232336 (c5) c5 static 
+E-C00237
+J103727 (c5) c2 static 
+J112603 (c5) c2 static BlackHole
+J130026 (c5) c2 static Pulsar
+J140717 (c5) c2 static 
+J151035 (c5) c2 static 
+J152739 (c5) c2 static 
+J205205 (c5) c2 static 
+E-C00238
+J105441 (c5) c2 static 
+J124949 (c5) c2 static BlackHole
+J130711 (c5) c2 static BlackHole
+J131948 (c5) c2 static 
+J132814 (c5) c2 static Wolf-Rayet Star
+J151811 (c5) c2 static BlackHole
+J170158 (c5) c2 static BlackHole
+J213734 (c5) c2 static 
+E-C00239
+J103959 (c5) c1 static 
+J104448 (c5) c1 static Magnetar
+J114353 (c5) c1 static RedGiant
+J120750 (c5) c1 static 
+J140608 (c5) c1 static Wolf-Rayet Star
+J143123 (c5) c1 static Pulsar
+J161354 (c5) c1 static 
+J164846 (c5) c1 static Wolf-Rayet Star
+J171622 (c5) c1 static CataclysmicVariable
+J212336 (c5) c1 static Pulsar
+E-C00240
+J104216 (c5) c5 static 
+J111000 (c5) c5 static 
+J122116 (c5) c5 static 
+J125023 (c5) c5 static 
+J150515 (c5) c5 static Magnetar
+J151718 (c5) c5 static 
+J153335 (c5) c5 static Wolf-Rayet Star
+J155600 (c5) c5 static CataclysmicVariable
+J170122 (c5) c5 static 
+E-C00241
+J121146 (c5) c5 static 
+J121649 (c5) c5 static CataclysmicVariable
+J125853 (c5) c5 static CataclysmicVariable
+J132258 (c5) c5 static 
+J132601 (c5) c5 static BlackHole
+J134096 (c5) c5 static CataclysmicVariable
+J135559 (c5) c5 static 
+J141609 (c5) c5 static 
+J221512 (c5) c5 static RedGiant
+E-C00242
+J112241 (c5) c5 static Magnetar
+J130735 (c5) c5 static 
+J131401 (c5) c5 static 
+J141204 (c5) c5 static CataclysmicVariable
+J144115 (c5) c5 static BlackHole
+J164430 (c5) c5 static 
+J170231 (c5) c5 static 
+E-C00329
+J001025 (c5) c3/ls static Shattered
+J001694 (c5) c5/ns static BlackHole, Shattered
+J001820 (c5) c5/ls static RedGiant, Shattered
+J003382 (c5) c2/ls static Pulsar, Shattered
+J003546 (c5) c3/ls static Pulsar, Shattered
+J003793 (c5) c4/ns static Shattered
+J003941 (c5) c5/ns static CataclysmicVariable, Shattered
+J004128 (c5) c5/ls static Shattered
+J004921 (c5) c5/ns static Shattered
+J004998 (c5) c5/ls static Magnetar, Shattered
+J005070 (c5) c6/ns static Shattered
+J005223 (c5) c4/ls static Wolf-Rayet Star, Shattered
+J005663 (c5) ls static hattered
+J005724 (c5) c5/ns static Shattered
+J010811 (c5) c6/ns static BlackHole, Shattered
+J011790 (c5) c3/hs/ns static CataclysmicVariable, Shattered
+J012578 (c5) c5/ls static RedGiant, Shattered
+J012773 (c5) c4 static Wolf-Rayet Star, Shattered
+J013146 (c5) c5/ns static Magnetar, Shattered
+E-R00025  (c5) 
+E-C00243
+J112003 (c5) c5 static 
+J115517 (c5) c5 static 
+J133525 (c5) c5 static RedGiant
+J143740 (c5) c5 static 
+J215338 (c5) c5 static 
+J230936 (c5) c5 static 
+E-C00244
+J100328 (c5) c5 static BlackHole
+J101000 (c5) c5 static CataclysmicVariable
+J103453 (c5) c5 static BlackHole
+J103701 (c5) c5 static 
+J110117 (c5) c5 static 
+J110628 (c5) c5 static RedGiant
+J110938 (c5) c5 static 
+J152703 (c5) c5 static 
+J155845 (c5) c5 static 
+J214318 (c5) c5 static 
+E-C00245
+J112844 (c5) c5 static Pulsar
+J114019 (c5) c5 static 
+J120816 (c5) c5 static RedGiant
+J130818 (c5) c5 static Magnetar
+J135046 (c5) c5 static 
+J142438 (c5) c5 static Wolf-Rayet Star
+J145322 (c5) c5 static Magnetar
+J153054 (c5) c5 static 
+J233255 (c5) c5 static Wolf-Rayet Star
+E-C00246
+J124409 (c5) c5 static Wolf-Rayet Star
+J124733 (c5) c5 static 
+J155905 (c5) c5 static 
+J165340 (c5) c5 static 
+J165743 (c5) c5 static 
+J171013 (c5) c5 static 
+J173645 (c5) c5 static 
+E-C00247
+J114154 (c5) c5 static CataclysmicVariable
+J114403 (c5) c5 static BlackHole
+J115127 (c5) c5 static 
+J150036 (c5) c5 static 
+J172431 (c5) c5 static 
+J212224 (c5) c5 static Wolf-Rayet Star
+J213055 (c5) c5 static CataclysmicVariable
+J233658 (c5) c5 static 
+J234252 (c5) c5 static BlackHole
+E-C00248
+J102736 (c5) c5 static Magnetar
+J114809 (c5) c5 static 
+J124046 (c5) c5 static 
+J133252 (c5) c5 static 
+J140600 (c5) c5 static 
+J145208 (c5) c5 static 
+J163701 (c5) c5 static 
+J165946 (c5) c5 static RedGiant
+E-C00249
+J100549 (c5) c5 static 
+J113701 (c5) c5 static 
+J115041 (c5) c5 static 
+J123602 (c5) c5 static BlackHole
+J124100 (c5) c5 static BlackHole
+J133011 (c5) c5 static RedGiant
+J154726 (c5) c5 static 
+E-C00250
+J100858 (c5) c5 static 
+J101028 (c5) c5 static 
+J110018 (c5) c5 static 
+J130037 (c5) c5 static Magnetar
+J151813 (c5) c5 static Pulsar
+J164327 (c5) c5 static 
+J164511 (c5) c5 static CataclysmicVariable
+E-C00251
+J113758 (c5) c5 static 
+J130241 (c5) c5 static 
+J130401 (c5) c5 static RedGiant
+J144107 (c5) c5 static Magnetar
+J153802 (c5) c5 static CataclysmicVariable
+J213642 (c5) c5 static 
+J232934 (c5) c5 static Wolf-Rayet Star
+J234928 (c5) c5 static 
+E-C00252
+J100425 (c5) c5 static 
+J140336 (c5) c5 static RedGiant
+J142624 (c5) c5 static Magnetar
+J150306 (c5) c5 static 
+J161745 (c5) c5 static RedGiant
+J170809 (c5) c5 static BlackHole
+J214712 (c5) c5 static 
+J220924 (c5) c5 static 
+E-C00253
+J113059 (c5) c5 static 
+J113636 (c5) c5 static CataclysmicVariable
+J131718 (c5) c5 static 
+J135540 (c5) c5 static RedGiant
+J142234 (c5) c5 static 
+J142858 (c5) c5 static Wolf-Rayet Star
+J151319 (c5) c5 static 
+E-C00254
+J100415 (c5) c5 static 
+J114337 (c5) c5 static 
+J121842 (c5) c5 static 
+J132427 (c5) c5 static BlackHole
+J143057 (c5) c5 static 
+J155739 (c5) c5 static 
+J165953 (c5) c5 static Wolf-Rayet Star
+J171246 (c5) c5 static 
+E-C00255
+J102623 (c5) c5 static Wolf-Rayet Star
+J102753 (c5) c5 static BlackHole
+J114443 (c5) c5 static Magnetar
+J114518 (c5) c5 static CataclysmicVariable
+J125990 (c5) c5 static 
+J221325 (c5) c5 static Wolf-Rayet Star
+E-R00026  (c5) 
+E-C00256
+J105849 (c5) c6 static Wolf-Rayet Star
+J115522 (c5) c6 static 
+J121704 (c5) c6 static 
+J121959 (c5) c6 static 
+J122049 (c5) c6 static RedGiant
+J145844 (c5) c6 static Magnetar
+J154846 (c5) c6 static Wolf-Rayet Star
+J164900 (c5) c6 static 
+E-C00257
+J111150 (c5) c6 static RedGiant
+J122610 (c5) c6 static 
+J145359 (c5) c6 static 
+J152912 (c5) c6 static BlackHole
+J154906 (c5) c6 static Magnetar
+J160547 (c5) c6 static Magnetar
+E-C00258
+J100237 (c5) c6 static Wolf-Rayet Star
+J103600 (c5) c6 static BlackHole
+J104617 (c5) c6 static CataclysmicVariable
+J111935 (c5) c6 static 
+J131128 (c5) c6 static CataclysmicVariable
+J143107 (c5) c6 static BlackHole
+J145735 (c5) c6 static 
+J152325 (c5) c6 static CataclysmicVariable
+J211517 (c5) c6 static Wolf-Rayet Star
+J213125 (c5) c6 static Pulsar
+E-C00259
+J101248 (c5) c6 static 
+J105504 (c5) c6 static BlackHole
+J114014 (c5) c6 static Wolf-Rayet Star
+J114842 (c5) c6 static 
+J130302 (c5) c6 static CataclysmicVariable
+J134141 (c5) c6 static CataclysmicVariable
+J143718 (c5) c6 static BlackHole
+J215215 (c5) c6 static 
+E-C00260
+J120823 (c5) c6 static Magnetar
+J123628 (c5) c6 static 
+J130621 (c5) c6 static 
+J134652 (c5) c6 static 
+J142631 (c5) c6 static 
+J153449 (c5) c6 static RedGiant
+J164621 (c5) c6 static Magnetar
+J170327 (c5) c6 static 
+E-C00261
+J105623 (c5) c6 static Magnetar
+J113907 (c5) c6 static 
+J133833 (c5) c6 static 
+J141250 (c5) c6 static RedGiant
+J145512 (c5) c6 static Magnetar
+J154509 (c5) c6 static 
+J163930 (c5) c6 static CataclysmicVariable
+J164610 (c5) c6 static 
+J171158 (c5) c6 static 
+E-C00262
+J105822 (c5) c6 static Wolf-Rayet Star
+J120010 (c5) c6 static 
+J133222 (c5) c6 static 
+J141615 (c5) c6 static 
+J162007 (c5) c6 static BlackHole
+J215124 (c5) c6 static 
+J233630 (c5) c6 static BlackHole
+E-C00263
+J104846 (c5) c6 static RedGiant
+J121416 (c5) c6 static Magnetar
+J123440 (c5) c6 static 
+J152111 (c5) c6 static Pulsar
+J161635 (c5) c6 static BlackHole
+J171136 (c5) c6 static 
+E-C00264
+J133913 (c5) c6 static Magnetar
+J135204 (c5) c6 static 
+J141043 (c5) c6 static 
+J145313 (c5) c6 static 
+J153447 (c5) c6 static CataclysmicVariable
+J163408 (c5) c6 static CataclysmicVariable
+E-R00027  (c5) 
+E-C00265
+J100252 (c5) c3 static 
+J103116 (c5) c3 static 
+J120437 (c5) c3 static 
+J125254 (c5) c3 static CataclysmicVariable
+J135301 (c5) c3 static Wolf-Rayet Star
+J145320 (c5) c3 static RedGiant
+J153919 (c5) c3 static Pulsar
+J162753 (c5) c3 static Pulsar
+J221356 (c5) c3 static 
+E-C00266
+J100919 (c5) c3 static Wolf-Rayet Star
+J115520 (c5) c3 static Wolf-Rayet Star
+J115933 (c5) c3 static Pulsar
+J131549 (c5) c3 static CataclysmicVariable
+J133529 (c5) c3 static 
+J205517 (c5) c3 static 
+E-C00267
+J102853 (c5) c3 static 
+J115418 (c5) c3 static 
+J122757 (c5) c3 static 
+J155040 (c5) c3 static 
+J172937 (c5) c3 static 
+J220546 (c5) c3 static 
+E-C00268
+J100759 (c5) c3 static 
+J104537 (c5) c3 static BlackHole
+J123235 (c5) c3 static 
+J125544 (c5) c3 static Wolf-Rayet Star
+J125657 (c5) c3 static 
+J140514 (c5) c3 static 
+J145416 (c5) c3 static 
+J151204 (c5) c3 static 
+J152034 (c5) c3 static Magnetar
+J162047 (c5) c3 static Wolf-Rayet Star
+E-C00269
+J101556 (c5) c3 static 
+J105719 (c5) c3 static BlackHole
+J112042 (c5) c3 static 
+J142110 (c5) c3 static 
+J143605 (c5) c3 static Magnetar
+J143626 (c5) c3 static Pulsar
+J154152 (c5) c3 static 
+J161737 (c5) c3 static BlackHole
+J213226 (c5) c3 static Pulsar
+J230047 (c5) c3 static BlackHole
+E-C00270
+J101343 (c5) c3 static Wolf-Rayet Star
+J104218 (c5) c3 static 
+J105135 (c5) c3 static RedGiant
+J110841 (c5) c3 static 
+J111818 (c5) c3 static RedGiant
+J115308 (c5) c3 static RedGiant
+J140418 (c5) c3 static BlackHole
+E-C00271
+J115422 (c5) c3 static 
+J124942 (c5) c3 static CataclysmicVariable
+J131747 (c5) c3 static Wolf-Rayet Star
+J133553 (c5) c3 static BlackHole
+J134024 (c5) c3 static 
+J142349 (c5) c3 static 
+J212203 (c5) c3 static Wolf-Rayet Star
+E-C00272
+J101912 (c5) c3 static Wolf-Rayet Star
+J103448 (c5) c3 static 
+J114537 (c5) c3 static CataclysmicVariable
+J130334 (c5) c3 static 
+J134440 (c5) c3 static 
+J161301 (c5) c3 static 
+J172125 (c5) c3 static Magnetar
+J214006 (c5) c3 static CataclysmicVariable
+E-C00273
+J100616 (c5) c3 static Pulsar
+J114041 (c5) c3 static 
+J124538 (c5) c3 static RedGiant
+J125641 (c5) c3 static BlackHole
+J141728 (c5) c3 static 
+J151300 (c5) c3 static CataclysmicVariable
+J204350 (c5) c3 static 
+J235108 (c5) c3 static 
+E-R00028  (c5) 
+E-C00274
+J102345 (c5) c5 static Magnetar
+J103328 (c5) c5 static Wolf-Rayet Star
+J114441 (c5) c5 static 
+J115644 (c5) c5 static 
+J121459 (c5) c5 static 
+J131646 (c5) c5 static 
+J143127 (c5) c5 static BlackHole
+J144543 (c5) c5 static Wolf-Rayet Star
+J161609 (c5) c5 static 
+E-C00275
+J121450 (c5) c5 static 
+J123658 (c5) c5 static 
+J130510 (c5) c5 static 
+J135402 (c5) c5 static 
+J145753 (c5) c5 static 
+J161747 (c5) c5 static CataclysmicVariable
+J165220 (c5) c5 static 
+E-C00276
+J105059 (c5) c5 static Magnetar
+J120546 (c5) c5 static BlackHole
+J124152 (c5) c5 static RedGiant
+J162349 (c5) c5 static Wolf-Rayet Star
+J210750 (c5) c5 static Pulsar
+J235305 (c5) c5 static BlackHole
+E-C00277
+J121747 (c5) c5 static Wolf-Rayet Star
+J122520 (c5) c5 static 
+J124722 (c5) c5 static BlackHole
+J140249 (c5) c5 static 
+J143245 (c5) c5 static 
+J151200 (c5) c5 static BlackHole
+J151530 (c5) c5 static Pulsar
+J154551 (c5) c5 static 
+J173506 (c5) c5 static Wolf-Rayet Star
+E-C00278
+J111245 (c5) c5 static 
+J113712 (c5) c5 static CataclysmicVariable
+J132946 (c5) c5 static 
+J135653 (c5) c5 static 
+J165520 (c5) c5 static 
+J165940 (c5) c5 static Pulsar
+J235456 (c5) c5 static RedGiant
+E-C00279
+J100551 (c5) c5 static 
+J105607 (c5) c5 static CataclysmicVariable
+J111249 (c5) c5 static 
+J131505 (c5) c5 static CataclysmicVariable
+J134702 (c5) c5 static RedGiant
+J140524 (c5) c5 static BlackHole
+J164732 (c5) c5 static 
+J234152 (c5) c5 static Magnetar
+E-C00280
+J115405 (c5) c5 static 
+J115907 (c5) c5 static Wolf-Rayet Star
+J132605 (c5) c5 static 
+J145825 (c5) c5 static 
+J161940 (c5) c5 static 
+J215009 (c5) c5 static CataclysmicVariable
+E-C00281
+J100854 (c5) c5 static 
+J102053 (c5) c5 static RedGiant
+J110530 (c5) c5 static Magnetar
+J111518 (c5) c5 static 
+J125634 (c5) c5 static 
+J145349 (c5) c5 static 
+J145846 (c5) c5 static 
+E-C00282
+J100109 (c5) c5 static 
+J100820 (c5) c5 static 
+J105246 (c5) c5 static 
+J115950 (c5) c5 static RedGiant
+J144944 (c5) c5 static CataclysmicVariable
+J161838 (c5) c5 static CataclysmicVariable
+J170807 (c5) c5 static 
+J173052 (c5) c5 static 
+J215554 (c5) c5 static 
+E-C00283
+J103615 (c5) c5 static 
+J111227 (c5) c5 static Wolf-Rayet Star
+J130039 (c5) c5 static Wolf-Rayet Star
+J144434 (c5) c5 static BlackHole
+J153222 (c5) c5 static CataclysmicVariable
+J170930 (c5) c5 static 
+J172139 (c5) c5 static RedGiant
+J230842 (c5) c5 static 
+E-C00284
+J110634 (c5) c5 static CataclysmicVariable
+J123432 (c5) c5 static RedGiant
+J124058 (c5) c5 static Magnetar
+J145706 (c5) c5 static Wolf-Rayet Star
+J151909 (c5) c5 static Pulsar
+J230242 (c5) c5 static BlackHole
+J232741 (c5) c5 static RedGiant
+E-C00285
+J114100 (c5) c5 static Wolf-Rayet Star
+J115901 (c5) c5 static 
+J125101 (c5) c5 static 
+J131142 (c5) c5 static BlackHole
+J131450 (c5) c5 static Wolf-Rayet Star
+J142910 (c5) c5 static 
+J152827 (c5) c5 static BlackHole
+J162132 (c5) c5 static 
+J172840 (c5) c5 static 
+E-R00029  (c5) 
+E-C00286
+J111543 (c5) c4 static 
+J130305 (c5) c4 static 
+J135554 (c5) c4 static 
+J160623 (c5) c4 static Pulsar
+J171722 (c5) c4 static Pulsar
+J214212 (c5) c4 static 
+J234722 (c5) c4 static Pulsar
+E-C00287
+J103812 (c5) c4 static 
+J104704 (c5) c4 static 
+J120354 (c5) c4 static CataclysmicVariable
+J133513 (c5) c4 static BlackHole
+J143525 (c5) c4 static 
+J165312 (c5) c4 static 
+E-C00288
+J114315 (c5) c4 static 
+J115905 (c5) c4 static Magnetar
+J125716 (c5) c4 static Magnetar
+J135626 (c5) c4 static BlackHole
+J140343 (c5) c4 static 
+J143845 (c5) c4 static CataclysmicVariable
+J233917 (c5) c4 static Magnetar
+E-C00289
+J101435 (c5) c4 static CataclysmicVariable
+J115727 (c5) c4 static 
+J122518 (c5) c4 static 
+J132546 (c5) c4 static 
+J142653 (c5) c4 static RedGiant
+J143819 (c5) c4 static 
+J153825 (c5) c4 static RedGiant
+J165205 (c5) c4 static CataclysmicVariable
+J170417 (c5) c4 static RedGiant
+E-C00290
+J111613 (c5) c4 static CataclysmicVariable
+J111640 (c5) c4 static Wolf-Rayet Star
+J112918 (c5) c4 static BlackHole
+J115124 (c5) c4 static 
+J125245 (c5) c4 static 
+J135533 (c5) c4 static Wolf-Rayet Star
+J135825 (c5) c4 static CataclysmicVariable
+J145131 (c5) c4 static 
+J230745 (c5) c4 static 
+J231137 (c5) c4 static 
+E-C00291
+J111003 (c5) c4 static CataclysmicVariable
+J111939 (c5) c4 static BlackHole
+J120922 (c5) c4 static RedGiant
+J131520 (c5) c4 static 
+J142138 (c5) c4 static Magnetar
+J145310 (c5) c4 static 
+J153106 (c5) c4 static RedGiant
+J155928 (c5) c4 static 
+J173550 (c5) c4 static 
+J222408 (c5) c4 static 
+E-C00292
+J105722 (c5) c4 static 
+J123546 (c5) c4 static 
+J125532 (c5) c4 static 
+J131509 (c5) c4 static 
+J133923 (c5) c4 static RedGiant
+J142814 (c5) c4 static Magnetar
+J170240 (c5) c4 static 
+J170736 (c5) c4 static RedGiant
+J210235 (c5) c4 static 
+J234208 (c5) c4 static BlackHole
+E-C00293
+J102103 (c5) c4 static 
+J123055 (c5) c4 static Magnetar
+J161944 (c5) c4 static 
+J162612 (c5) c4 static 
+J210519 (c5) c4 static BlackHole
+J212302 (c5) c4 static Magnetar
+J213956 (c5) c4 static Wolf-Rayet Star
+J233517 (c5) c4 static 
+E-C00294
+J103215 (c5) c4 static 
+J104809 (c5) c4 static BlackHole
+J135306 (c5) c4 static RedGiant
+J135705 (c5) c4 static RedGiant
+J141032 (c5) c4 static 
+J144454 (c5) c4 static RedGiant
+J155256 (c5) c4 static BlackHole
+J162853 (c5) c4 static RedGiant
+E-C00295
+J105531 (c5) c4 static 
+J110759 (c5) c4 static 
+J110946 (c5) c4 static 
+J140133 (c5) c4 static 
+J215304 (c5) c4 static BlackHole
+J230221 (c5) c4 static CataclysmicVariable
+E-C00296
+J101647 (c5) c4 static 
+J132328 (c5) c4 static Pulsar
+J133023 (c5) c4 static Magnetar
+J142535 (c5) c4 static 
+J152106 (c5) c4 static Pulsar
+J164553 (c5) c4 static 
+J213344 (c5) c4 static 
+J213502 (c5) c4 static BlackHole
+J232959 (c5) c4 static 
+F-R00030  (c6) 
+F-C00297
+J104859 (c6) c2 static Pulsar
+J105705 (c6) c2 static CataclysmicVariable
+J115923 (c6) c2 static 
+J135504 (c6) c2 static RedGiant
+J151325 (c6) c2 static Pulsar
+J155838 (c6) c2 static 
+J164745 (c6) c2 static CataclysmicVariable
+F-C00298
+J105934 (c6) c6 static Magnetar
+J115844 (c6) c6 static 
+J115855 (c6) c6 static 
+J133906 (c6) c6 static 
+J141434 (c6) c6 static 
+J142528 (c6) c6 static 
+J150020 (c6) c6 static Magnetar
+F-C00299
+J103800 (c6) c5 static RedGiant
+J111450 (c6) c5 static CataclysmicVariable
+J114003 (c6) c5 static Magnetar
+J125122 (c6) c5 static CataclysmicVariable
+J130900 (c6) c5 static 
+J143751 (c6) c5 static 
+J144420 (c6) c5 static 
+J151838 (c6) c5 static 
+J152550 (c6) c5 static 
+J215930 (c6) c5 static RedGiant
+J222045 (c6) c5 static Pulsar
+F-C00300
+J104921 (c6) c3 static 
+J111918 (c6) c3 static RedGiant
+J115935 (c6) c3 static 
+J120512 (c6) c3 static CataclysmicVariable
+J135623 (c6) c3 static CataclysmicVariable
+J145939 (c6) c3 static 
+J162614 (c6) c3 static Pulsar
+J230049 (c6) c3 static CataclysmicVariable
+F-C00301
+J101553 (c6) c1 static Pulsar
+J110421 (c6) c1 static Wolf-Rayet Star
+J151920 (c6) c1 static CataclysmicVariable
+J155207 (c6) c1 static 
+J155311 (c6) c1 static 
+J160855 (c6) c1 static 
+F-C00302
+J110834 (c6) c4 static 
+J111520 (c6) c4 static BlackHole
+J112028 (c6) c4 static BlackHole
+J142247 (c6) c4 static CataclysmicVariable
+J143200 (c6) c4 static RedGiant
+J160722 (c6) c4 static RedGiant
+J161335 (c6) c4 static 
+J170118 (c6) c4 static 
+F-C00303
+J124504 (c6) c6 static RedGiant
+J140555 (c6) c6 static 
+J144436 (c6) c6 static 
+J145510 (c6) c6 static 
+J154829 (c6) c6 static CataclysmicVariable
+J165641 (c6) c6 static BlackHole
+J212612 (c6) c6 static 
+F-C00304
+J103400 (c6) c3 static RedGiant
+J104632 (c6) c3 static 
+J110810 (c6) c3 static BlackHole
+J120103 (c6) c3 static RedGiant
+J122249 (c6) c3 static RedGiant
+J131916 (c6) c3 static 
+J154021 (c6) c3 static Magnetar
+J171404 (c6) c3 static RedGiant
+J213753 (c6) c3 static RedGiant
+F-C00305
+J100409 (c6) c4 static 
+J100501 (c6) c4 static 
+J103414 (c6) c4 static RedGiant
+J115008 (c6) c4 static RedGiant
+J140918 (c6) c4 static Wolf-Rayet Star
+J141502 (c6) c4 static 
+J152722 (c6) c4 static 
+J155650 (c6) c4 static 
+J223432 (c6) c4 static 
+F-C00306
+J101652 (c6) c5 static RedGiant
+J103504 (c6) c5 static 
+J105023 (c6) c5 static Wolf-Rayet Star
+J105801 (c6) c5 static Pulsar
+J112829 (c6) c5 static 
+J114430 (c6) c5 static Magnetar
+J135220 (c6) c5 static CataclysmicVariable
+J163225 (c6) c5 static Pulsar
+F-C00307
+J104037 (c6) c5 static 
+J104857 (c6) c5 static Magnetar
+J112417 (c6) c5 static 
+J123940 (c6) c5 static 
+J144902 (c6) c5 static 
+J153217 (c6) c5 static 
+J205141 (c6) c5 static Magnetar
+J230559 (c6) c5 static RedGiant
+F-C00308
+J101748 (c6) c5 static 
+J104136 (c6) c5 static 
+J122452 (c6) c5 static Pulsar
+J122818 (c6) c5 static Pulsar
+J140200 (c6) c5 static Magnetar
+J172842 (c6) c5 static CataclysmicVariable
+J211353 (c6) c5 static Wolf-Rayet Star
+J232246 (c6) c5 static 
+F-C00309
+J101708 (c6) c5 static 
+J101755 (c6) c5 static BlackHole
+J124201 (c6) c5 static 
+J125111 (c6) c5 static Pulsar
+J133241 (c6) c5 static CataclysmicVariable
+J135031 (c6) c5 static Magnetar
+J145523 (c6) c5 static 
+J151817 (c6) c5 static Wolf-Rayet Star
+F-C00310
+J102834 (c6) c5 static Magnetar
+J111447 (c6) c5 static 
+J132106 (c6) c5 static Pulsar
+J141319 (c6) c5 static RedGiant
+J152117 (c6) c5 static 
+J161215 (c6) c5 static 
+J164701 (c6) c5 static Wolf-Rayet Star
+J170845 (c6) c5 static 
+J222604 (c6) c5 static RedGiant
+F-C00330
+J010366 (c6) c6 static hattered
+J010951 (c6) c5/ns static Shattered
+J012475 (c6) c5/ns static Shattered
+J012686 (c6) c5/ns static Shattered
+J015227 (c6) c6/ns static Shattered
+G-R00031
+G-C00324
+Thera (thera) hs/ls/ns static 
+H-R00032  (c13) 
+H-C00331
+J000487 (c13) c3/c5/ns static Wolf-Rayet Star, Shattered
+J000551 (c13) c1/ns static Wolf-Rayet Star, Shattered
+J000621 (c13) c2/ns static Wolf-Rayet Star, Shattered
+J000895 (c13) c5/ns static Wolf-Rayet Star, Shattered
+H-C00332
+J000186 (c13) c2/c5/ns static Wolf-Rayet Star, Shattered
+J000304 (c13) c4/c5/ns static Wolf-Rayet Star, Shattered
+J000327 (c13) c2/c5/ns static Wolf-Rayet Star, Shattered
+J000353 (c13) c2/c4/ns static Wolf-Rayet Star, Shattered
+J000452 (c13) c3/c4/ns static Wolf-Rayet Star, Shattered
+J000461 (c13) c3/ns static Wolf-Rayet Star, Shattered
+J000522 (c13) c2/c3/ns static Wolf-Rayet Star, Shattered
+J000528 (c13) c3/c4/ns static Wolf-Rayet Star, Shattered
+J000595 (c13) c2/c5/ns static Wolf-Rayet Star, Shattered
+J000630 (c13) c1/c4/ns static Wolf-Rayet Star, Shattered
+J000965 (c13) c3/ns static Wolf-Rayet Star, Shattered
+H-C00333
+J000102 (c13) c3/ns static Wolf-Rayet Star, Shattered
+J000214 (c13) c5/ns static Wolf-Rayet Star, Shattered
+J000313 (c13) c5/ns static Wolf-Rayet Star, Shattered
+J000427 (c13) c3/ns static Wolf-Rayet Star, Shattered
+J000652 (c13) c6/ns static Wolf-Rayet Star, Shattered
+J000685 (c13) c4/ns static Wolf-Rayet Star, Shattered
+J000687 (c13) c1/ns static Wolf-Rayet Star, Shattered
+J000719 (c13) c4/ns static Wolf-Rayet Star, Shattered
+J000726 (c13) c1/ns static Wolf-Rayet Star, Shattered
+J000844 (c13) c2/ns static Wolf-Rayet Star, Shattered
+K-R00033
+K-C00334
+J055520 (sentinel) c2 static RedGiant, Shattered
+J110145 (barbican) c2 static CataclysmicVariable, Shattered
+J164710 (vidette) c2 static Magnetar, Shattered
+J174618 (redoubt) c2 static Wolf-Rayet Star, Shattered
+J200727 (conflux) c2 static Pulsar, Shattered
