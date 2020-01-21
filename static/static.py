@@ -25,7 +25,7 @@ from auth.error import throw_json_error, throw_json_success
 def get_all_wormholes():
 
     ### Getting all of the possible wormhole types and all of their associative datapoints
-    print("Getting all static wormhole data values")
+    #print("Getting all static wormhole data values")
 
     ### Getting data
     connector = init_mysql("db_static")
@@ -42,7 +42,7 @@ def get_all_wormholes():
 def get_all_systems():
 
     ### Getting all of the possible wormhole types and all of their associative datapoints
-    print("Getting all static wormhole data values")
+    #print("Getting all static wormhole data values")
 
     ### Getting data
     connector = init_mysql("db_static")
