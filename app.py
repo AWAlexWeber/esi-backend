@@ -5,6 +5,8 @@
 from flask import Flask
 from flask_cors import CORS
 import json
+import os
+from dotenv import load_dotenv
 from auth.error import *
 
 ########################
@@ -13,6 +15,9 @@ from auth.error import *
 
 app = Flask("EvE ERB API")
 CORS(app)
+
+# Loading our .env file
+load_dotenv()
 
 ###########################
 # Setting up load imports #
