@@ -30,6 +30,7 @@ from sig.load_dir import sig_load
 from static.load_dir import static_load
 from stream.load_dir import stream_load
 from config.load_dir import config_load
+from admin.load_dir import admin_load
 
 @app.route('/')
 def init_route():
@@ -39,6 +40,7 @@ def init_route():
 
 ### Loading routes
 auth_load(app)
+admin_load(app)
 character_load(app)
 location_load(app)
 sig_load(app)
