@@ -33,7 +33,7 @@ def get_new_token():
     print(json_data)
 
     ### AND cctv_init < (NOW() - INTERVAL 5 MINUTE
-    GET_TOKEN = "SELECT * FROM db_cctv.tb_cctv_token WHERE cctv_use_status = 0 AND cctv_token_code = %s AND cctv_init_character = %s AND cctv_init > (NOW() - INTERVAL 10 MINUTE)"
+    GET_TOKEN = "SELECT * FROM db_cctv.tb_cctv_token WHERE cctv_use_status = 0 AND cctv_token_code = %s AND cctv_init_character = %s"
     cursor.execute(GET_TOKEN, (json_data['stream_access_code'], json_data['character_id']))
 
     result = cursor.fetchall()
@@ -92,3 +92,78 @@ def get_new_auth():
     connector.commit()
 
     return throw_json_success("Success", new_token)
+
+def get_current_tokens():
+    print("Getting all available tokens")
+
+    json_input = request.data.decode('utf-8')
+    json_data = json.loads(json_input)
+
+    # Authenticating our user
+    auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
+    if auth == -1:
+        return throw_json_error(400, "Invalid authentication code")
+
+    ### Connecting with our database
+    connector = init_mysql("db_cctv")
+    cursor = connector.cursor()
+
+    SELECT_TOKEN = "SELECT * FROM tb_cctv_token"
+    cursor.execute(SELECT_TOKEN, )
+
+    result = list(cursor.fetchall())
+    new_result = []
+    for element in result:
+        new_element = []
+        for value in element:
+            if isinstance(value, datetime.datetime):
+                value = date_to_string(value)
+            new_element.append(value)
+
+        new_element = tuple(new_element)
+        new_result.append(new_element)
+
+    print(new_result)
+    return throw_json_success("Success", new_result)
+
+def delete_tokens():
+    print("Deleting given token")
+
+    json_input = request.data.decode('utf-8')
+    json_data = json.loads(json_input)
+
+    # Authenticating our user
+    auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
+    if auth == -1:
+        return throw_json_error(400, "Invalid authentication code")
+
+    token_ids = json_data['token_delete_array']
+    ### Converting
+    for token_id in token_ids:
+        print(token_id)
+        ### Connecting with our database
+        connector = init_mysql("db_cctv")
+        cursor = connector.cursor()
+
+        DELETE_CCTV_TOKEN = "DELETE FROM tb_cctv_token WHERE cctv_token_id = %s"
+        cursor.execute(DELETE_CCTV_TOKEN, (token_id,))
+
+        connector.commit()
+
+    SELECT_TOKEN = "SELECT * FROM tb_cctv_token"
+    cursor.execute(SELECT_TOKEN, )
+
+    result = list(cursor.fetchall())
+    new_result = []
+    for element in result:
+        new_element = []
+        for value in element:
+            if isinstance(value, datetime.datetime):
+                value = date_to_string(value)
+            new_element.append(value)
+
+        new_element = tuple(new_element)
+        new_result.append(new_element)
+
+    print(new_result)
+    return throw_json_success("Success", new_result)

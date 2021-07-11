@@ -66,13 +66,9 @@ def auth_character_full(character_id, character_auth_code, permission_set):
         else:
             return result[0][0]
 
-
-
     except mysql.connector.Error as err:
         print("Something went wrong (get code): {}".format(err))
         return -1
-
-
 
 # Function for authenticating the character ID against character auth code
 def auth_character(character_id, character_auth_code):

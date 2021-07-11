@@ -20,3 +20,15 @@ def stream_load(app):
         response = json.dumps(get_new_token())
         print("Returning " + response)
         return response
+
+    @app.route('/stream/token/getall', methods=['POST'])
+    def token_get_all():
+        response = json.dumps(get_current_tokens())
+        print("Returning " + response)
+        return response
+
+    @app.route('/stream/token/delete', methods=['POST'])
+    def token_delete():
+        response = json.dumps(delete_tokens())
+        print("Returning " + response)
+        return response
