@@ -52,7 +52,7 @@ def auth_character_full(character_id, character_auth_code, permission_set):
         permission_set = "%" + permission_set + "%"
         my_cursor = my_db.cursor(buffered=True)
         print(character_id, permission_set)
-        get_character_statement = "SELECT * FROM tb_character INNER JOIN tb_character_type WHERE tb_character.character_type = tb_character_type.character_type_id AND character_permission_access LIKE %s AND character_id = %s"
+        get_character_statement = "SELECT * FROM tb_character INNER JOIN tb_character_type WHERE tb_character.character_type = tb_character_type.character_type_id AND character_permission_access LIKE %s AND tb_character.character_id = %s"
         sql_values = (permission_set, character_id)
         my_cursor.execute(get_character_statement, sql_values)
 

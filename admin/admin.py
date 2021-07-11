@@ -27,7 +27,7 @@ from datetime import datetime, timedelta
 
 def get_accounts():
 
-    # Getting the sig info
+    # Getting the sig info  
     json_input = request.data
     json_data = json.loads(json_input.decode('utf-8'))
 
