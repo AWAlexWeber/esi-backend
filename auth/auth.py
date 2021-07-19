@@ -12,7 +12,7 @@ import mysql.connector
 
 # Importing errors
 from auth.error import throw_json_error
-from config.config import get_format_from_raw, get_format_from_raw_full
+from config.config import convert_invtype_to_name, get_format_from_raw, get_format_from_raw_full
 
 # Getting the flask request object
 from flask import request
@@ -24,7 +24,7 @@ import json
 import hashlib
 
 ### Importing our config
-from config.config import gen_random_string
+from config.config import gen_random_string, api_call_get
 
 # Primary authentication file
 # Some static values
@@ -502,6 +502,9 @@ def save_code():
         "character_id": character_id
     }
 
+    # Either way, we now re import skills
+    import_skills(character_id, new_auth)
+
     print(output)
     return output
 
@@ -585,3 +588,39 @@ def get_character_id_from_token(code):
 
     print(r.content, r.status_code, r.reason)
     return json.loads(r.content.decode('utf-8'))
+
+def import_skills(character_id, character_auth_code):
+    # This should be ran as part of the auth process but it can also be triggered normally
+    # Given the character ID and character auth code, lets get (or generate) and access token
+    sso_id = auth_character(character_id, character_auth_code)
+
+    # Checking for error
+    if sso_id == -1:
+        return throw_json_error(500, "Invalid character authentication code")
+
+    # Otherwise, lets get that token
+    access_token = get_access_token(character_id, sso_id)
+
+    my_db = mysql.connector.connect(
+        host="localhost",
+        user=os.environ['MYSQL_SERVER_USERNAME'],
+        passwd=os.environ['MYSQL_SERVER_PASSWORD'],
+        database="db_character"
+    )
+
+    # Next, we will get the players ship
+    result_skill = api_call_get("characters/" + str(character_id) + "/skills/", {"character_id": character_id, "token": access_token})
+    result_skill_content = json.loads(result_skill.content.decode('utf-8'))
+    skills = list()
+    for skill in result_skill_content['skills']:
+        # Converting the typeID to the typeName
+        skill_name = convert_invtype_to_name(skill['skill_id'], my_db)
+        skill_level = skill['active_skill_level']
+        data = {'skill_id': skill['skill_id'], 'skill_name': skill_name, 'skill_level': skill_level}
+        skills.append(data)
+
+    # Inserting the data
+    update_character_skills = "UPDATE db_character.tb_character SET character_skill_json = %s WHERE character_id = %s"
+    cursor = my_db.cursor()
+    cursor.execute(update_character_skills, (json.dumps(skills), character_id))
+    my_db.commit()

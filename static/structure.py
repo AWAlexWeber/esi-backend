@@ -15,7 +15,7 @@ def get_station_name_from_id(structure_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT * FROM stastations WHERE stationID = %s"
+    select_solar_system_name = "SELECT * FROM staStations WHERE stationID = %s"
     cursor.execute(select_solar_system_name, (structure_id,))
     result_raw = cursor.fetchall()
 

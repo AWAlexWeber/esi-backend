@@ -15,7 +15,7 @@ def get_ship_name_from_id(ship_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_ship = "SELECT * FROM invtypes WHERE typeID = %s"
+    select_ship = "SELECT * FROM invTypes WHERE typeID = %s"
     cursor.execute(select_ship, (ship_id,))
     result_raw = cursor.fetchall()
 

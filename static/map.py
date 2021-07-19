@@ -16,7 +16,7 @@ def get_region_name_from_region_id(regionID):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT regionName FROM mapregions WHERE regionID = %s"
+    select_solar_system_name = "SELECT regionName FROM mapRegions WHERE regionID = %s"
     cursor.execute(select_solar_system_name, (regionID,))
     result_raw = cursor.fetchall()
 
@@ -31,7 +31,7 @@ def get_region_id_from_solar_system_id(solar_system_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT regionID FROM mapsolarsystems WHERE solarSystemID = %s"
+    select_solar_system_name = "SELECT regionID FROM mapSolarSystems WHERE solarSystemID = %s"
     cursor.execute(select_solar_system_name, (solar_system_id,))
     result_raw = cursor.fetchall()
 
@@ -47,7 +47,7 @@ def get_constellation_name_from_constellation_id(constellation_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT constellationName FROM mapconstellations WHERE constellationID = %s"
+    select_solar_system_name = "SELECT constellationName FROM mapConstellations WHERE constellationID = %s"
     cursor.execute(select_solar_system_name, (constellation_id,))
     result_raw = cursor.fetchall()
 
@@ -62,7 +62,7 @@ def get_solar_system_name_from_id(solar_system_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT solarSystemName FROM mapsolarsystems WHERE solarSystemID = %s"
+    select_solar_system_name = "SELECT solarSystemName FROM mapSolarSystems WHERE solarSystemID = %s"
     cursor.execute(select_solar_system_name, (solar_system_id,))
     result_raw = cursor.fetchall()
 
@@ -77,7 +77,7 @@ def get_solar_system_id_from_name(solar_system_name):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT solarSystemID FROM mapsolarsystems WHERE solarSystemName = %s"
+    select_solar_system_name = "SELECT solarSystemID FROM mapSolarSystems WHERE solarSystemName = %s"
     cursor.execute(select_solar_system_name, (solar_system_name,))
     result_raw = cursor.fetchall()
 
@@ -93,7 +93,7 @@ def get_constellation_from_system_id(system_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT constellationID FROM mapsolarsystems WHERE solarSystemID = %s"
+    select_solar_system_name = "SELECT constellationID FROM mapSolarSystems WHERE solarSystemID = %s"
     cursor.execute(select_solar_system_name, (system_id,))
     result_raw = cursor.fetchall()
 
@@ -111,7 +111,7 @@ def get_wormhole_class(system_name):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select = "select solarsystemname,wormholeclassid from mapsolarsystems join maplocationwormholeclasses on regionid=locationid WHERE solarsystemname = %s"
+    select = "select solarSystemName, wormholeClassId from mapSolarSystems join mapLocationWormholeClasses on regionId=locationId WHERE solarSystemName = %s"
     cursor.execute(select, (system_name,))
     result_raw = cursor.fetchall()
 
@@ -133,7 +133,7 @@ def get_wormhole_statics(constellation_id, solarSystemName):
 
     else:
 
-        select_query = "SELECT staticmap.*, invtypes.typeName, invtypes.typeID FROM db_static.staticmap INNER JOIN invtypes WHERE constellationID = %s AND staticmap.typeID = invtypes.typeID"
+        select_query = "SELECT staticMap.*, invTypes.typeName, invTypes.typeID FROM db_static.staticMap INNER JOIN invTypes WHERE constellationID = %s AND staticMap.typeID = invTypes.typeID"
         cursor.execute(select_query, (constellation_id,))
         result_raw = cursor.fetchall()
 
@@ -156,7 +156,7 @@ def get_wormhole_statics(constellation_id, solarSystemName):
 
     # For each entry in our static list, lets get the actual wormhole information
     for entry in static_list:
-        select = "SELECT * FROM db_static.wormholestaticinfo WHERE typeID = %s"
+        select = "SELECT * FROM db_static.wormholeStaticInfo WHERE typeID = %s"
         cursor.execute(select, (entry,))
         results_raw = cursor.fetchall()
 
@@ -178,7 +178,7 @@ def get_security_string_from_system_id(system_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT security, solarSystemName FROM mapsolarsystems WHERE solarSystemID = %s"
+    select_solar_system_name = "SELECT security, solarSystemName FROM mapSolarSystems WHERE solarSystemID = %s"
     cursor.execute(select_solar_system_name, (system_id,))
     result_raw = cursor.fetchall()
 
@@ -202,7 +202,7 @@ def get_wormhole_effect_from_system_id(solar_system_id):
     mydb = init_mysql("db_static")
     cursor = mydb.cursor()
 
-    select_solar_system_name = "SELECT wormholeEffect FROM wormholeeffect WHERE solarSystemID = %s"
+    select_solar_system_name = "SELECT wormholeEffect FROM wormholeEffect WHERE solarSystemID = %s"
     cursor.execute(select_solar_system_name, (solar_system_id,))
     result_raw = cursor.fetchall()
 
@@ -230,7 +230,7 @@ def get_system_info(solar_system_id):
     output['regionID'] = get_region_id_from_solar_system_id(solar_system_id)['regionID']
     output['regionName'] = get_region_name_from_region_id(output['regionID'])['regionName']
     output['securityClass'] = get_security_string_from_system_id(solar_system_id)
-    output['wormholeEffect'] = get_wormhole_effect_from_system_id(solar_system_id);
+    output['wormholeEffect'] = get_wormhole_effect_from_system_id(solar_system_id)
 
     ### Getting notes for this location, IF there is indeed notes for it...
 

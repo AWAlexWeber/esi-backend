@@ -9,9 +9,8 @@ def init_mysql(database):
 
     my_db = mysql.connector.connect(
         host="localhost",
-        ,
-        user=os.environ['MYSQL_SERVER_USERNAME'],
-        passwd=os.environ['MYSQL_SERVER_PASSWORD'],
+        user="vsadmin",
+        passwd="dermdermderm99E!",
         database=database
     )
 
@@ -56,12 +55,12 @@ with open('full_systems.txt', newline='') as csvfile:
             if effectType == "":
                 continue
 
-            get_solar_system_id = "SELECT solarSystemID from mapsolarsystems WHERE solarSystemName = %s;"
+            get_solar_system_id = "SELECT solarSystemID from mapSolarSystems WHERE solarSystemName = %s;"
             cursor.execute(get_solar_system_id, (row[0],))
             systemID = cursor.fetchall()[0][0]
 
 
-            insert_effect = "INSERT INTO wormholeeffect (solarSystemID, wormholeEffect) VALUES (%s, %s)"
+            insert_effect = "INSERT INTO wormholeEffect (solarSystemID, wormholeEffect) VALUES (%s, %s)"
             cursor.execute(insert_effect, (systemID, effectType))
 
     connector.commit()

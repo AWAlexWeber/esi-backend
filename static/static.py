@@ -31,7 +31,7 @@ def get_all_wormholes():
     connector = init_mysql("db_static")
     cursor = connector.cursor()
 
-    select = "SELECT * FROM wormholestaticinfo"
+    select = "SELECT * FROM wormholeStaticInfo"
     cursor.execute(select)
 
     result_raw = cursor.fetchall()
@@ -48,7 +48,7 @@ def get_all_systems():
     connector = init_mysql("db_static")
     cursor = connector.cursor()
 
-    select = "SELECT solarSystemName, security FROM mapsolarsystems"
+    select = "SELECT solarSystemName, security FROM mapSolarSystems"
     cursor.execute(select)
 
     result_raw = cursor.fetchall()

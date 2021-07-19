@@ -131,3 +131,19 @@ def gen_base64_seat_auth():
     prebase = str.encode(seat_client_id+":"+seat_client_secret)
     base64auth = base64.b64encode(prebase)
     return base64auth
+
+def convert_name_to_invtype(name, mydb):
+    cursor = mydb.cursor()
+
+    location_get = "SELECT typeID FROM db_static.invTypes WHERE typeName = %s"
+    cursor.execute(location_get, (name,))
+    result_raw = cursor.fetchall()
+    return result_raw[0][0]
+
+def convert_invtype_to_name(invtype, mydb):
+    cursor = mydb.cursor()
+
+    location_get = "SELECT typeName FROM db_static.invTypes WHERE typeID = %s"
+    cursor.execute(location_get, (invtype,))
+    result_raw = cursor.fetchall()
+    return result_raw[0][0]

@@ -23,7 +23,7 @@ def init_mysql(database):
 
     my_db = mysql.connector.connect(
         host="localhost",
-        user="root",
+        user="vsadmin",
         passwd="dermdermderm99E!",
         database=database
     )
@@ -36,7 +36,7 @@ print("Fixing the missing wormhole statics...")
 connector = init_mysql("db_static")
 cursor = connector.cursor()
 
-GET_ALL_SHATTERED = "SELECT * FROM db_static.mapsolarsystems WHERE solarSystemName LIKE 'J0%'"
+GET_ALL_SHATTERED = "SELECT * FROM db_static.mapSolarSystems WHERE solarSystemName LIKE 'J0%'"
 cursor.execute(GET_ALL_SHATTERED, ())
 result_raw = cursor.fetchall()
 result = get_format_from_raw_full(result_raw, cursor)

@@ -18,7 +18,7 @@ from static.map import *
 from static.ship import *
 from static.structure import *
 
-from auth.auth import auth_character, get_access_token
+from auth.auth import auth_character, get_access_token, import_skills
 from auth.error import throw_json_error, throw_json_success
 # Primary file for dealing with location
 
@@ -47,6 +47,23 @@ def get_character():
     result_full = get_format_from_raw(result_raw, cursor)
 
     return throw_json_success("Success", result_full)
+
+def import_skills(character_id, character_auth_code):
+    # This should be ran as part of the auth process but it can also be triggered normally
+    # Given the character ID and character auth code, lets get (or generate) and access token
+    sso_id = auth_character(character_id, character_auth_code)
+
+    # Checking for error
+    if sso_id == -1:
+        return throw_json_error(500, "Invalid character authentication code")
+
+    # Otherwise, lets get that token
+    access_token = get_access_token(character_id, sso_id)
+
+    # Next, we will get the players ship
+    result_skill = api_call_get("characters/" + str(character_id) + "/skills/", {"character_id": character_id, "token": access_token})
+
+    print(result_skill)
 
 
 

@@ -31,6 +31,7 @@ from static.load_dir import static_load
 from stream.load_dir import stream_load
 from config.load_dir import config_load
 from admin.load_dir import admin_load
+from fitting.load_dir import fitting_load
 
 @app.route('/')
 def init_route():
@@ -47,6 +48,7 @@ sig_load(app)
 static_load(app)
 stream_load(app)
 config_load(app)
+fitting_load(app)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

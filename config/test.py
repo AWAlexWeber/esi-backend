@@ -6,8 +6,8 @@ import mysql.connector
 def init_mysql(database):
     my_db = mysql.connector.connect(
         host="localhost",
-        user="root",
-        passwd="dermdermderm99",
+        user="vsadmin",
+        passwd="dermdermderm99E!",
         database=database
     )
 
@@ -56,7 +56,7 @@ with open('full.csv', newline='') as csvfile:
 
     for entry in output:
 
-        insert = "INSERT INTO wormholestaticinfo (name, destination, source, lifetime_hours, max_mass_per_jump, total_mass, respawn, mass_regen, type_id)" \
+        insert = "INSERT INTO wormholeStaticInfo (name, destination, source, lifetime_hours, max_mass_per_jump, total_mass, respawn, mass_regen, type_id)" \
                  "VALUES" \
                  "(%s, %s, %s, %s, %s, %s, %s, %s, %s)"
 

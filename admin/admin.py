@@ -45,8 +45,14 @@ def get_accounts():
     cursor.execute(get_all_characters)
     results = cursor.fetchall()
     results_output = encode_datetime(results)
+    
+    convert_output = list()
+    for field in results_output:
+        character_skill_json = field['character_skill_json'].decode('utf-8')
+        field['character_skill_json'] = character_skill_json
+        convert_output.append(field)
 
-    return results_output
+    return convert_output
 
 def set_account_group():
 
