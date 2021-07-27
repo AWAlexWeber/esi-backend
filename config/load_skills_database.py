@@ -10,14 +10,14 @@ query = "SELECT i.typeID as itemID, i.typeName as itemName, ip.typeID as prerqSk
 def init_mysql(database):
     database = database.lower()
 
-    mydb = mysql.connector.connect(
+    my_db = mysql.connector.connect(
         host="localhost",
-        user="vsadmin",
-        passwd="dermdermderm99E!",
+        user=os.environ['MYSQL_SERVER_USERNAME'],
+        passwd=os.environ['MYSQL_SERVER_PASSWORD'],
         database=database
     )
 
-    return mydb
+    return my_db
 
 db = init_mysql("db_static")
 cursor = db.cursor()

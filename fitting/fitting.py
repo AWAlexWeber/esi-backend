@@ -127,3 +127,4 @@ def calculate_fit_skill_reqs(esi_fit, mydb):
                 skill_reqs_id[skill] = skills_id[skill]
 
     return (skill_reqs_id, skill_reqs_name)
+

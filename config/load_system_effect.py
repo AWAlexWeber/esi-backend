@@ -5,12 +5,10 @@ import os
 import mysql.connector
 
 def init_mysql(database):
-    database = database.lower()
-
     my_db = mysql.connector.connect(
         host="localhost",
-        user="vsadmin",
-        passwd="dermdermderm99E!",
+        user=os.environ['MYSQL_SERVER_USERNAME'],
+        passwd=os.environ['MYSQL_SERVER_PASSWORD'],
         database=database
     )
 

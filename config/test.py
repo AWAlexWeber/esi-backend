@@ -2,16 +2,18 @@ import csv
 
 # Importing the mysql connector
 import mysql.connector
+import os
 
 def init_mysql(database):
     my_db = mysql.connector.connect(
         host="localhost",
-        user="vsadmin",
-        passwd="dermdermderm99E!",
+        user=os.environ['MYSQL_SERVER_USERNAME'],
+        passwd=os.environ['MYSQL_SERVER_PASSWORD'],
         database=database
     )
 
-    return my_db;
+    return my_db
+    
 with open('full.csv', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
 
