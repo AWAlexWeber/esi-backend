@@ -42,6 +42,7 @@ def get_character():
     cursor.execute(get_character_query, (json_data['character_id'], ))
 
     result_raw = cursor.fetchall()
+    print("Character fetch raw", json_data)
     print(result_raw)
 
     result_full = get_format_from_raw(result_raw, cursor)

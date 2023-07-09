@@ -28,7 +28,7 @@ from config.config import gen_random_string, api_call_get
 
 # Primary authentication file
 # Some static values
-scope = "publicData esi-calendar.respond_calendar_events.v1 esi-calendar.read_calendar_events.v1 esi-location.read_location.v1 esi-location.read_ship_type.v1 esi-mail.organize_mail.v1 esi-mail.read_mail.v1 esi-mail.send_mail.v1 esi-skills.read_skills.v1 esi-skills.read_skillqueue.v1 esi-wallet.read_character_wallet.v1 esi-wallet.read_corporation_wallet.v1 esi-search.search_structures.v1 esi-clones.read_clones.v1 esi-characters.read_contacts.v1 esi-universe.read_structures.v1 esi-bookmarks.read_character_bookmarks.v1 esi-killmails.read_killmails.v1 esi-corporations.read_corporation_membership.v1 esi-assets.read_assets.v1 esi-planets.manage_planets.v1 esi-fleets.read_fleet.v1 esi-fleets.write_fleet.v1 esi-ui.open_window.v1 esi-ui.write_waypoint.v1 esi-characters.write_contacts.v1 esi-fittings.read_fittings.v1 esi-fittings.write_fittings.v1 esi-markets.structure_markets.v1 esi-corporations.read_structures.v1 esi-characters.read_loyalty.v1 esi-characters.read_opportunities.v1 esi-characters.read_chat_channels.v1 esi-characters.read_medals.v1 esi-characters.read_standings.v1 esi-characters.read_agents_research.v1 esi-industry.read_character_jobs.v1 esi-markets.read_character_orders.v1 esi-characters.read_blueprints.v1 esi-characters.read_corporation_roles.v1 esi-location.read_online.v1 esi-contracts.read_character_contracts.v1 esi-clones.read_implants.v1 esi-characters.read_fatigue.v1 esi-killmails.read_corporation_killmails.v1 esi-corporations.track_members.v1 esi-wallet.read_corporation_wallets.v1 esi-characters.read_notifications.v1 esi-corporations.read_divisions.v1 esi-corporations.read_contacts.v1 esi-assets.read_corporation_assets.v1 esi-corporations.read_titles.v1 esi-corporations.read_blueprints.v1 esi-bookmarks.read_corporation_bookmarks.v1 esi-contracts.read_corporation_contracts.v1 esi-corporations.read_standings.v1 esi-corporations.read_starbases.v1 esi-industry.read_corporation_jobs.v1 esi-markets.read_corporation_orders.v1 esi-corporations.read_container_logs.v1 esi-industry.read_character_mining.v1 esi-industry.read_corporation_mining.v1 esi-planets.read_customs_offices.v1 esi-corporations.read_facilities.v1 esi-corporations.read_medals.v1 esi-characters.read_titles.v1 esi-alliances.read_contacts.v1 esi-characters.read_fw_stats.v1 esi-corporations.read_fw_stats.v1 esi-characterstats.read.v1"
+scope = os.environ["CLIENT_SCOPE"]
 redirect = "http://vs-eve.com/auth"
 client_id = os.environ['CLIENT_ID']
 client_secret = os.environ['CLIENT_SECRET']
@@ -505,7 +505,6 @@ def save_code():
     # Either way, we now re import skills
     import_skills(character_id, new_auth)
 
-    print(output)
     return output
 
 
@@ -610,7 +609,11 @@ def import_skills(character_id, character_auth_code):
 
     # Next, we will get the players ship
     result_skill = api_call_get("characters/" + str(character_id) + "/skills/", {"character_id": character_id, "token": access_token})
+    result_character = api_call_get("characters/" + str(character_id), {"character_id": character_id, "token": access_token})
     result_skill_content = json.loads(result_skill.content.decode('utf-8'))
+    result_character_content = json.loads(result_character.content.decode('utf-8'))
+    corporation_id = result_character_content['corporation_id']
+
     skills = list()
     for skill in result_skill_content['skills']:
         # Converting the typeID to the typeName
@@ -620,7 +623,37 @@ def import_skills(character_id, character_auth_code):
         skills.append(data)
 
     # Inserting the data
-    update_character_skills = "UPDATE db_character.tb_character SET character_skill_json = %s WHERE character_id = %s"
+    update_character_skills = "UPDATE db_character.tb_character SET character_skill_json = %s, corporation_id = %s WHERE character_id = %s"
     cursor = my_db.cursor()
-    cursor.execute(update_character_skills, (json.dumps(skills), character_id))
+    cursor.execute(update_character_skills, (json.dumps(skills), corporation_id, character_id))
     my_db.commit()
+
+# Function for authenticating the character ID against character auth code
+def auth_character_corporation(character_id):
+    my_db = mysql.connector.connect(
+        host="localhost",
+        user=os.environ['MYSQL_SERVER_USERNAME'],
+        passwd=os.environ['MYSQL_SERVER_PASSWORD'],
+        database="db_auth"
+    )
+
+    try:
+        my_cursor = my_db.cursor(buffered=True)
+        my_cursor.execute('SELECT character_id, corporation_id FROM db_character.tb_character WHERE character_id = %s', (int(character_id),))
+
+        result = my_cursor.fetchall()
+        
+        if int(result[0][1]) != 98323701:
+            print("Error, unable to validate corporation")
+            return False
+        
+        else:
+            return True
+        
+    except mysql.connector.Error as err:
+        print("Mysql exeception: {}".format(err))
+        return False
+    
+    except Exception as err:
+        print("Something went wrong: {}".format(err))
+        return False

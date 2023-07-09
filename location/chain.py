@@ -107,7 +107,7 @@ def get_chain():
             sig_system_data = sig_data['sig_output_system'][location_name]
             for sig in sig_system_data:
                 sig_data_iterate = sig_system_data[sig]
-                if "sig_wormhole_data" in sig_data_iterate:
+                if "sig_wormhole_data" in sig_data_iterate and sig_data_iterate["sig_wormhole_data"]:
 
                     sig_wormhole_data = json.loads(sig_data_iterate['sig_wormhole_data'])
                     if "wormhole_destination" not in sig_wormhole_data:

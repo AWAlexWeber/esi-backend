@@ -17,3 +17,8 @@ def fitting_load(app):
     def add_fit():
         response = json.dumps(add_eft_fit())
         return response
+
+    @app.route('/fit/get_all', methods=['POST'])
+    def get_all_fits():
+        response = json.dumps(get_all_saved_fits())
+        return response

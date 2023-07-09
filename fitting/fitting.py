@@ -74,6 +74,7 @@ def add_eft_fit():
     esi_fit_str = json.dumps(esi_fit)
     fit_attributes = json.dumps(json_data['fit_attributes'])
     fit_title = json_data['fit_title']
+    fit_shiptype = eft_fit[1:eft_fit.find(",")]
 
     # Saving it into our database
     mydb = init_mysql("db_fitting")
@@ -81,11 +82,42 @@ def add_eft_fit():
 
     skill_type_id, skill_type_name = (calculate_fit_skill_reqs(esi_fit, mydb))
 
-    fitting_add = "INSERT INTO tb_fitting (fit_attributes, fit_esi, fit_eft, character_id, fit_title, fit_skillreqs_typeid, fit_skillreqs_typename) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-    cursor.execute(fitting_add, (fit_attributes, esi_fit_str, eft_fit, json_data['character_id'], fit_title, json.dumps(skill_type_id), json.dumps(skill_type_name)))
+    fitting_add = "INSERT INTO tb_fitting (fit_attributes, fit_esi, fit_eft, character_id, fit_title, fit_skillreqs_typeid, fit_skillreqs_typename, fit_shiptype) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+    cursor.execute(fitting_add, (fit_attributes, esi_fit_str, eft_fit, json_data['character_id'], fit_title, json.dumps(skill_type_id), json.dumps(skill_type_name), fit_shiptype))
 
     mydb.commit()
     return throw_json_success("success", "Fit inserted")
+
+def get_all_saved_fits():
+    json_input = request.data.decode('utf-8')
+    json_data = json.loads(json_input)
+
+    # Authenticating our user
+    auth = auth_character(json_data['character_id'], json_data['character_auth_code'])
+    if auth == -1:
+        return throw_json_error(400, "Invalid authentication code")
+
+    character_id, character_auth_code = json_data['character_id'], json_data['character_auth_code']
+
+    # Opening our database
+    mydb = init_mysql("db_fitting")
+    cursor = mydb.cursor()
+
+    SELECT_QUERY = "SELECT * FROM db_fitting.tb_fitting"
+    cursor.execute(SELECT_QUERY)
+    result_raw = cursor.fetchall()
+    result_output = list()
+    for result_data in result_raw:
+        d = list()
+        for p in result_data:
+            if type(p) == bytes:
+                d.append(str(p, "utf-8"))
+            elif type(p) == datetime.datetime:
+                d.append(str(p))
+            else:
+                d.append(p)
+        result_output.append(d)
+    return result_output
 
 def calculate_fit_skill_reqs(esi_fit, mydb):
     cursor = mydb.cursor()

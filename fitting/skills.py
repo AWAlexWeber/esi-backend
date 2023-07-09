@@ -33,14 +33,15 @@ def get_all_missing_skills(fitting_id):
     mydb = init_mysql("db_character")
     cursor = mydb.cursor()
 
-    get_all_characters = "SELECT * FROM tb_character WHERE character_role = 'primary'"
+    get_all_characters = "SELECT * FROM tb_character"
     cursor.execute(get_all_characters)
     results = cursor.fetchall()
 
     get_fit_skills = "SELECT * FROM db_fitting.tb_fitting WHERE fit_id = %s"
     cursor.execute(get_fit_skills, (fitting_id,))
     results_fit = cursor.fetchall()
-    fit_skills_id = json.loads(results_fit[0][-2])
+    print(results_fit[0][-2])
+    fit_skills_id = json.loads(results_fit[0][-4])
 
     success_list = list()
     fail_list = list()
@@ -76,13 +77,14 @@ def get_all_missing_skills(fitting_id):
 
         success_list.append(character_name)
 
-    print("===============================")
-    for s in success_list:
-        print(s)
     print("===============================")    
     for f in fail_list:
         print(f)
+    print("===============================")
+    for s in success_list:
+        print(s)
+    
 
 
 
-get_all_missing_skills(9)
+get_all_missing_skills(19)
